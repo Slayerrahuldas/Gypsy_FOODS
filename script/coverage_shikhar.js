@@ -69,7 +69,7 @@ function applyFilters() {
                 row["HUL Code"].toLowerCase().includes(searchQuery) ||
                 row["HUL Outlet Name"].toLowerCase().includes(searchQuery)) &&
             (!filterButton1Active || row["ECO"] < 1000) &&
-            (!filterButton2Active || row["Shikhar"] < 500)
+            (!filterButton2Active || (row["Shikhar"] < 500 && row["Shikhar Outlet"] === "YES"))
         );
     });
 
