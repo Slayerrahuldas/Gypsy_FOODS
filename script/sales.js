@@ -2,7 +2,7 @@ let jsonData = [];
 
 async function fetchData() {
     try {
-        const response = await fetch("json/sales.json");
+        const response = await fetch("sales.json");
         if (!response.ok) throw new Error("Failed to fetch data.");
         jsonData = await response.json();
         initialize();
@@ -15,20 +15,73 @@ function populateTable(data) {
     const tableBody = document.getElementById("table-body");
     tableBody.innerHTML = "";
 
-    data.forEach((item) => {
+    // Columns to total
+    const totalColumns = ["LYRR", "JQRR", "L3M", "MTD"];
+    let totals = { "LYRR": 0, "JQRR": 0, "L3M": 0, "MTD": 0 };
+
+    // Get selected values from dropdowns
+    const selectedMeName = document.getElementById("filter-me-name").value || "ALL ME";
+    const selectedBeat = document.getElementById("filter-beat").value || "ALL Beats";
+
+    // Calculate totals
+    data.forEach(item => {
+        totalColumns.forEach(key => {
+            totals[key] += parseFloat(item[key]) || 0;
+        });
+    });
+
+    // Create Total Row
+    const totalRow = document.createElement("tr");
+    totalRow.style.fontWeight = "bold";
+    totalRow.style.backgroundColor = "#f2f2f2";
+
+    let totalIndexCell = document.createElement("td");
+    totalIndexCell.textContent = "Total";
+    totalRow.appendChild(totalIndexCell);
+
+    ["HUL Code", "HUL Outlet Name"].forEach(() => {
+        let emptyCell = document.createElement("td");
+        emptyCell.textContent = "-";
+        totalRow.appendChild(emptyCell);
+    });
+
+    // Set "ME Name" column as selected dropdown value
+    let meNameCell = document.createElement("td");
+    meNameCell.textContent = selectedMeName;
+    totalRow.appendChild(meNameCell);
+
+    // Set "Beat" column as selected dropdown value
+    let beatCell = document.createElement("td");
+    beatCell.textContent = selectedBeat;
+    totalRow.appendChild(beatCell);
+
+    totalColumns.forEach(key => {
+        let totalCell = document.createElement("td");
+        totalCell.textContent = totals[key]; // No decimal formatting
+        totalRow.appendChild(totalCell);
+    });
+
+    tableBody.appendChild(totalRow);
+
+    // Populate Data Rows
+    data.forEach((item, index) => {
         const row = document.createElement("tr");
+        const cellIndex = document.createElement("td");
+        cellIndex.textContent = index + 1;
+        row.appendChild(cellIndex);
+
         ["HUL Code", "HUL Outlet Name", "ME Name", "Beat", "LYRR", "JQRR", "L3M", "MTD"].forEach(key => {
             const cell = document.createElement("td");
-            cell.textContent = item[key];
+            cell.textContent = item[key] || "-";
             row.appendChild(cell);
         });
+
         tableBody.appendChild(row);
     });
 }
 
 function applyFilters() {
     let filteredData = [...jsonData];
-
     const filterMeName = document.getElementById("filter-me-name").value;
     const filterBeat = document.getElementById("filter-beat").value;
     const searchQuery = document.getElementById("search-bar").value.toLowerCase();
@@ -45,19 +98,16 @@ function applyFilters() {
             row["HUL Outlet Name"].toLowerCase().includes(searchQuery)
         );
     }
-    
     populateTable(filteredData);
     updateDropdowns(filteredData);
 }
 
 function updateDropdowns(filteredData) {
     const meNames = new Set(), beats = new Set();
-    
     filteredData.forEach(row => {
         if (row["ME Name"]) meNames.add(row["ME Name"]);
         if (row["Beat"]) beats.add(row["Beat"]);
     });
-
     populateSelectDropdown("filter-me-name", meNames, "ME Name");
     populateSelectDropdown("filter-beat", beats, "Beat");
 }
@@ -67,10 +117,10 @@ function populateSelectDropdown(id, optionsSet, columnName) {
     const selectedValue = dropdown.value;
     dropdown.innerHTML = "";
 
+    // Dropdown header
     const defaultOption = document.createElement("option");
     defaultOption.textContent = columnName;
     defaultOption.value = "";
-    defaultOption.selected = true;
     dropdown.appendChild(defaultOption);
 
     optionsSet.forEach(option => {
