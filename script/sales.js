@@ -15,21 +15,13 @@ function populateTable(data) {
     const tableBody = document.getElementById("table-body");
     tableBody.innerHTML = "";
 
-    data.forEach((item, index) => {
+    data.forEach((item) => {
         const row = document.createElement("tr");
-
-        // Add reverse row numbering
-        const serialCell = document.createElement("td");
-        serialCell.textContent = data.length - index; // Reverse order
-        row.appendChild(serialCell);
-
-        // Add other data columns
-        ["HUL Code", "HUL Outlet Name", "ME Name", "Beat", "LYRR", "JQRR", "LYTM", "MTD"].forEach(key => {
+        ["HUL Code", "HUL Outlet Name", "ME Name", "Beat", "LYRR", "JQRR", "L3M", "MTD"].forEach(key => {
             const cell = document.createElement("td");
-            cell.textContent = item[key] || "";
+            cell.textContent = item[key];
             row.appendChild(cell);
         });
-
         tableBody.appendChild(row);
     });
 }
