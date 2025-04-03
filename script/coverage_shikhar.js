@@ -25,7 +25,7 @@ function populateTable(data) {
 
         // Add row number (dynamic numbering)
         const serialCell = document.createElement("td");
-        serialCell.textContent = index + 1; // Start from 1
+        serialCell.textContent = data.length - index; // Reverse order
         row.appendChild(serialCell);
 
         // Add data cells
