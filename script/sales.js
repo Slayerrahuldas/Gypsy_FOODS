@@ -63,11 +63,14 @@ function populateTable(data) {
 
     tableBody.appendChild(totalRow);
 
-    // Populate Data Rows
-    data.forEach((item, index) => {
+    // Populate Data Rows (Row Number is reversed, but data order is maintained)
+    const totalRows = data.length;
+    data.forEach((item, index) => {  
         const row = document.createElement("tr");
+        
+        // Reverse row numbering but keep data order unchanged
         const cellIndex = document.createElement("td");
-        cellIndex.textContent = index + 1;
+        cellIndex.textContent = totalRows - index; // Reverse numbering
         row.appendChild(cellIndex);
 
         ["HUL Code", "HUL Outlet Name", "ME Name", "Beat", "LYRR", "JQRR", "L3M", "MTD"].forEach(key => {
