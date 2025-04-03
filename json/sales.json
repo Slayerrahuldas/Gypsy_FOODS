@@ -1,1 +1,42 @@
-
+[
+    {
+        "HUL Code": "HUL123",
+        "HUL Outlet Name": "Outlet A",
+        "ME Name": "John Doe",
+        "Beat": "North Zone",
+        "LYRR": 1200,
+        "JQRR": 1100,
+        "LYTM": 150,
+        "MTD": 75
+    },
+    {
+        "HUL Code": "HUL124",
+        "HUL Outlet Name": "Outlet B",
+        "ME Name": "Jane Smith",
+        "Beat": "South Zone",
+        "LYRR": 1300,
+        "JQRR": 1000,
+        "LYTM": 200,
+        "MTD": 90
+    },
+    {
+        "HUL Code": "HUL125",
+        "HUL Outlet Name": "Outlet C",
+        "ME Name": "Alice Brown",
+        "Beat": "East Zone",
+        "LYRR": 1400,
+        "JQRR": 1200,
+        "LYTM": 180,
+        "MTD": 85
+    },
+    {
+        "HUL Code": "HUL126",
+        "HUL Outlet Name": "Outlet D",
+        "ME Name": "Bob Martin",
+        "Beat": "West Zone",
+        "LYRR": 1100,
+        "JQRR": 1050,
+        "LYTM": 160,
+        "MTD": 80
+    }
+]
