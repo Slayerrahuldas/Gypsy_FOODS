@@ -2,126 +2,116 @@ let filterButtonActive = false;
 let jsonData = [];
 
 async function fetchData() {
-  try {
-    const response = await fetch("json/launch.json");
-    if (!response.ok) throw new Error("Failed to fetch data.");
-    jsonData = await response.json();
-    initialize();
-  } catch (error) {
-    console.error("Error fetching data:", error);
-  }
+    try {
+        const response = await fetch("json/launch.json");
+        if (!response.ok) throw new Error("Failed to fetch data.");
+        jsonData = await response.json();
+        initialize();
+    } catch (error) {
+        console.error("Error fetching data:", error);
+    }
 }
 
 function populateTable(data) {
-  const tableBody = document.getElementById("table-body");
-  tableBody.innerHTML = "";
+    const tableBody = document.getElementById("table-body");
+    tableBody.innerHTML = "";
 
-  data.forEach((item, index) => {
-    const row = document.createElement("tr");
-    row.appendChild(createCell(data.length - index)); // Reverse row number
+    data.forEach((item, index) => {
+        const row = document.createElement("tr");
 
-    ["HUL Code", "HUL Outlet Name", "ME Name", "BEAT", "BasePack Code", "BasePack Desc", "Target (VMQ)", "Achv Qty", "Status"].forEach(key => {
-      row.appendChild(createCell(item[key]));
+        // Add row number Reverse order
+        row.appendChild(createCell(data.length - index));
+
+        // Add table data
+        ["HUL Code", "HUL Outlet Name", "ME Name", "Beat", "BasePack Desc", "Target (VMQ)", "Achv Qty", "Status"].forEach(key => {
+            row.appendChild(createCell(item[key]));
+        });
+
+        tableBody.appendChild(row);
     });
-
-    tableBody.appendChild(row);
-  });
 }
 
+// 🛠 Utility function to create table cells (Fixes Zero Display Issue)
 function createCell(value) {
-  const cell = document.createElement("td");
-  cell.textContent = value === 0 ? "0" : value ?? "";
-  return cell;
+    const cell = document.createElement("td");
+    cell.textContent = value === 0 ? "0" : value !== undefined && value !== null ? value : "";
+    return cell;
 }
 
 function applyFilters() {
-  const meName = document.getElementById("filter-me-name").value;
-  const beats = getMultiSelectValues("filter-beat");
-  const basepacks = getMultiSelectValues("filter-basepack-desc");
-  const search = document.getElementById("search-bar").value.toLowerCase();
+    let filteredData = jsonData.filter(row => {
+        return (
+            (getFilterValue("filter-me-name") === "" || row["ME Name"] === getFilterValue("filter-me-name")) &&
+            (getFilterValue("filter-beat") === "" || row["Beat"] === getFilterValue("filter-beat")) &&
+            (getFilterValue("filter-basepack-desc") === "" || row["BasePack Desc"] === getFilterValue("filter-basepack-desc")) &&
+            (document.getElementById("search-bar").value === "" || 
+                row["HUL Code"].toLowerCase().includes(document.getElementById("search-bar").value.toLowerCase()) ||
+                row["HUL Outlet Name"].toLowerCase().includes(document.getElementById("search-bar").value.toLowerCase()))
+        );
+    });
 
-  let filtered = jsonData.filter(row => {
-    const matchME = !meName || row["ME Name"] === meName;
-    const matchBeat = beats.length === 0 || beats.includes(row["BEAT"]);
-    const matchBase = basepacks.length === 0 || basepacks.includes(row["BasePack Desc"]);
-    const matchSearch =
-      !search ||
-      row["HUL Code"].toLowerCase().includes(search) ||
-      row["HUL Outlet Name"].toLowerCase().includes(search);
+    if (filterButtonActive) {
+        filteredData = filteredData.filter(row => row["Status"] === "Pending");
+    }
 
-    return matchME && matchBeat && matchBase && matchSearch;
-  });
-
-  if (filterButtonActive) {
-    filtered = filtered.filter(row => row["Status"] === "Pending");
-  }
-
-  populateTable(filtered);
-  updateDropdowns(jsonData);
+    populateTable(filteredData);
+    updateDropdowns(filteredData);
 }
 
-function getMultiSelectValues(id) {
-  const select = document.getElementById(id);
-  return Array.from(select.selectedOptions).map(opt => opt.value);
+// 🛠 Helper function to get filter values
+function getFilterValue(id) {
+    return document.getElementById(id).value;
 }
 
-function updateDropdowns(data) {
-  populateDropdown("filter-me-name", getUniqueValues(data, "ME Name"), "ME Name");
-  populateDropdown("filter-beat", getUniqueValues(data, "BEAT"));
-  populateDropdown("filter-basepack-desc", getUniqueValues(data, "BasePack Desc"));
+function updateDropdowns(filteredData) {
+    const headers = ["ME Name", "Beat", "BasePack Desc"];
+    headers.forEach(header => populateDropdown(`filter-${header.toLowerCase().replace(/ /g, '-')}`, getUniqueValues(filteredData, header), header));
 }
 
+// 🛠 Extract unique values for dropdowns
 function getUniqueValues(data, key) {
-  return [...new Set(data.map(item => item[key]).filter(Boolean))];
+    return [...new Set(data.map(item => item[key]).filter(Boolean))];
 }
 
-function populateDropdown(id, options, defaultText = null) {
-  const select = document.getElementById(id);
-  const current = Array.from(select.selectedOptions).map(o => o.value);
-  select.innerHTML = "";
+// 🛠 Populate dropdowns dynamically
+function populateDropdown(id, options, defaultText) {
+    const dropdown = document.getElementById(id);
+    const selectedValue = dropdown.value;
+    dropdown.innerHTML = "";
 
-  if (!select.multiple && defaultText) {
-    select.appendChild(new Option(defaultText, "", true));
-  }
+    dropdown.appendChild(new Option(defaultText, "", true));
 
-  options.forEach(opt => {
-    const option = new Option(opt, opt);
-    if (current.includes(opt)) option.selected = true;
-    select.appendChild(option);
-  });
+    options.forEach(option => {
+        const optionElement = new Option(option, option);
+        if (option === selectedValue) optionElement.selected = true;
+        dropdown.appendChild(optionElement);
+    });
 }
 
-// 🔘 Reset filters
+// 📌 Event Listeners
 document.getElementById("reset-button").addEventListener("click", () => {
-  filterButtonActive = false;
-  document.getElementById("filter-button-1").style.backgroundColor = "blue";
-  document.getElementById("search-bar").value = "";
-
-  document.getElementById("filter-me-name").selectedIndex = 0;
-
-  ["filter-beat", "filter-basepack-desc"].forEach(id => {
-    const select = document.getElementById(id);
-    Array.from(select.options).forEach(option => option.selected = false);
-  });
-
-  applyFilters();
+    filterButtonActive = false;
+    document.getElementById("filter-button-1").style.backgroundColor = "blue";
+    document.getElementById("search-bar").value = "";
+    ["filter-me-name", "filter-beat", "filter-basepack-desc"].forEach(id => document.getElementById(id).selectedIndex = 0);
+    applyFilters();
 });
 
-// 🧠 Event listeners
 document.getElementById("search-bar").addEventListener("input", applyFilters);
 document.getElementById("filter-me-name").addEventListener("change", applyFilters);
 document.getElementById("filter-beat").addEventListener("change", applyFilters);
 document.getElementById("filter-basepack-desc").addEventListener("change", applyFilters);
 
 document.getElementById("filter-button-1").addEventListener("click", () => {
-  filterButtonActive = !filterButtonActive;
-  document.getElementById("filter-button-1").style.backgroundColor = filterButtonActive ? "green" : "blue";
-  applyFilters();
+    filterButtonActive = !filterButtonActive;
+    document.getElementById("filter-button-1").style.backgroundColor = filterButtonActive ? "green" : "blue";
+    applyFilters();
 });
 
+// 🚀 Initialize
 function initialize() {
-  populateTable(jsonData);
-  updateDropdowns(jsonData);
+    populateTable(jsonData);
+    applyFilters();
 }
 
 fetchData();
