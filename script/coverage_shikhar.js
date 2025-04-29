@@ -31,7 +31,7 @@ function populateTable(data) {
         // Add data cells
         const columns = [
             "HUL Code", "HUL Outlet Name", "Shikhar Outlet",
-            "DETS ME Name", "DETS Beat", "FNB ME Name", 
+            "DETS ME Name", "FNB ME Name", 
             "FNB Beat", "NUTS ME Name", "NUTS Beat", "ECO", "Shikhar"
         ];
         
