@@ -73,7 +73,7 @@ function populateTable(data) {
         cellIndex.textContent = totalRows - index; // Reverse numbering
         row.appendChild(cellIndex);
 
-        ["HUL Code", "HUL Outlet Name", "ME Name", "Beat", "LYRR", "JQRR", "L3M", "MTD"].forEach(key => {
+        ["HUL Code", "HUL Outlet Name", "ME Name", "Beat", "PLG", "LYRR", "JQRR", "L3M", "MTD"].forEach(key => {
             const cell = document.createElement("td");
             cell.textContent = item[key] || "-";
             row.appendChild(cell);
