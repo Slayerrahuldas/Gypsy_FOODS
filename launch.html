@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FOODS Launch Dashboard</title>
+    <title>DETS Launch Dashboard</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <link rel="stylesheet" href="css/pages.css">
 </head>
@@ -15,9 +15,10 @@
     <nav class="navbar">
         <ul>
             <li><a href="index.html"><img src="images/home.png" alt="Home" width="20"></a></li>
-            <li><a href="coverage_shikhar.html">Coverage & Shikhar</a></li>
-            <li><a href="sales.html">Sales</a></li>
+            <li><a href="shikhar.html">Shikhar</a></li>
+            <li><a href="coverage.html">Coverage</a></li>
             <li><a href="launch.html">Launch</a></li>
+	    <li><a href="sales.html">Sales</a></li>
         </ul>
     </nav>
 
@@ -30,8 +31,8 @@
             <select id="filter-me-name">
                 <option value="">ME Name</option>
             </select>
-            <select id="filter-beat">
-                <option value="">Beat</option>
+            <select id="filter-day">
+                <option value="">Day</option>
             </select>
             <select id="filter-basepack-desc">
                 <option value="">BasePack Desc</option>
@@ -39,7 +40,7 @@
         </div>
 
         <div class="buttons-container">
-            <button id="filter-button-1">Pending Status</button>
+            <button id="filter-button">Pending</button>
             <button id="reset-button">Reset Filters</button>
         </div>
 
@@ -49,12 +50,12 @@
                     <th>#</th>
                     <th>HUL Code</th>
                     <th>HUL Outlet Name</th>
-                    <th>ME Name</th>
-                    <th>Beat</th>
                     <th>BasePack Desc</th>
                     <th>Target (VMQ)</th>
                     <th>Achv Qty</th>
                     <th>Status</th>
+                    <th>ME Name</th>
+                    <th>Beat</th>
                 </tr>
             </thead>
             <tbody id="table-body"></tbody>
