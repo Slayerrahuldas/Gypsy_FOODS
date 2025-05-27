@@ -1,17 +1,19 @@
-let filterButtonActive = false;
 let jsonData = [];
+let pendingFilterActive = false;
 
+// Fetch JSON data
 async function fetchData() {
     try {
-        const response = await fetch("json/launch.json");
+        const response = await fetch("json/launch.json"); // Adjust path if needed
         if (!response.ok) throw new Error("Failed to fetch data.");
         jsonData = await response.json();
         initialize();
     } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error loading data:", error);
     }
 }
 
+// Populate table with data
 function populateTable(data) {
     const tableBody = document.getElementById("table-body");
     tableBody.innerHTML = "";
@@ -19,99 +21,124 @@ function populateTable(data) {
     data.forEach((item, index) => {
         const row = document.createElement("tr");
 
-        // Add row number Reverse order
-        row.appendChild(createCell(data.length - index));
+        const serialCell = document.createElement("td");
+        serialCell.textContent = data.length - index;
+        row.appendChild(serialCell);
 
-        // Add table data
-        ["HUL Code", "HUL Outlet Name", "ME Name", "Beat", "BasePack Desc", "Target (VMQ)", "Achv Qty", "Status"].forEach(key => {
-            row.appendChild(createCell(item[key]));
+        const columns = [
+            "HUL Code",
+            "HUL Outlet Name",
+            "BasePack Desc",
+            "Target (VMQ)",
+            "Achv Qty",
+            "Status",
+            "ME Name",
+            "Beat"
+        ];
+
+        columns.forEach(key => {
+            const cell = document.createElement("td");
+            cell.textContent = item[key] ?? "";
+            row.appendChild(cell);
         });
 
         tableBody.appendChild(row);
     });
 }
 
-// 🛠 Utility function to create table cells (Fixes Zero Display Issue)
-function createCell(value) {
-    const cell = document.createElement("td");
-    cell.textContent = value === 0 ? "0" : value !== undefined && value !== null ? value : "";
-    return cell;
-}
-
+// Apply filters
 function applyFilters() {
-    let filteredData = jsonData.filter(row => {
-        return (
-            (getFilterValue("filter-me-name") === "" || row["ME Name"] === getFilterValue("filter-me-name")) &&
-            (getFilterValue("filter-beat") === "" || row["Beat"] === getFilterValue("filter-beat")) &&
-            (getFilterValue("filter-basepack-desc") === "" || row["BasePack Desc"] === getFilterValue("filter-basepack-desc")) &&
-            (document.getElementById("search-bar").value === "" || 
-                row["HUL Code"].toLowerCase().includes(document.getElementById("search-bar").value.toLowerCase()) ||
-                row["HUL Outlet Name"].toLowerCase().includes(document.getElementById("search-bar").value.toLowerCase()))
-        );
+    const searchValue = document.getElementById("search-bar").value.toLowerCase();
+    const meName = document.getElementById("filter-me-name").value;
+    const day = document.getElementById("filter-day").value;
+    const basePack = document.getElementById("filter-basepack-desc").value;
+
+    const filtered = jsonData.filter(row => {
+        const matchesSearch =
+            !searchValue ||
+            (row["HUL Code"] && row["HUL Code"].toLowerCase().includes(searchValue)) ||
+            (row["HUL Outlet Name"] && row["HUL Outlet Name"].toLowerCase().includes(searchValue));
+
+        const matchesFilters =
+            (!meName || row["ME Name"] === meName) &&
+            (!day || row["Day"] === day) &&
+            (!basePack || row["BasePack Desc"] === basePack);
+
+        const matchesPending =
+            !pendingFilterActive || (row["Status"] && row["Status"].toLowerCase() === "pending");
+
+        return matchesSearch && matchesFilters && matchesPending;
     });
 
-    if (filterButtonActive) {
-        filteredData = filteredData.filter(row => row["Status"] === "Pending");
+    populateTable(filtered);
+    updateDropdowns(filtered);
+}
+
+// Update dropdowns with unique filtered values
+function updateDropdowns(data) {
+    const sets = {
+        "filter-me-name": new Set(),
+        "filter-day": new Set(),
+        "filter-basepack-desc": new Set()
+    };
+
+    data.forEach(row => {
+        if (row["ME Name"]) sets["filter-me-name"].add(row["ME Name"]);
+        if (row["Day"]) sets["filter-day"].add(row["Day"]);
+        if (row["BasePack Desc"]) sets["filter-basepack-desc"].add(row["BasePack Desc"]);
+    });
+
+    for (const [id, values] of Object.entries(sets)) {
+        populateDropdown(id, values, document.getElementById(id).options[0].text);
     }
-
-    populateTable(filteredData);
-    updateDropdowns(filteredData);
 }
 
-// 🛠 Helper function to get filter values
-function getFilterValue(id) {
-    return document.getElementById(id).value;
-}
-
-function updateDropdowns(filteredData) {
-    const headers = ["ME Name", "Beat", "BasePack Desc"];
-    headers.forEach(header => populateDropdown(`filter-${header.toLowerCase().replace(/ /g, '-')}`, getUniqueValues(filteredData, header), header));
-}
-
-// 🛠 Extract unique values for dropdowns
-function getUniqueValues(data, key) {
-    return [...new Set(data.map(item => item[key]).filter(Boolean))];
-}
-
-// 🛠 Populate dropdowns dynamically
-function populateDropdown(id, options, defaultText) {
+// Populate a dropdown
+function populateDropdown(id, valuesSet, defaultText) {
     const dropdown = document.getElementById(id);
-    const selectedValue = dropdown.value;
-    dropdown.innerHTML = "";
-
-    dropdown.appendChild(new Option(defaultText, "", true));
-
-    options.forEach(option => {
-        const optionElement = new Option(option, option);
-        if (option === selectedValue) optionElement.selected = true;
-        dropdown.appendChild(optionElement);
+    const current = dropdown.value;
+    dropdown.innerHTML = `<option value="">${defaultText}</option>`;
+    Array.from(valuesSet).sort().forEach(value => {
+        const selected = value === current ? "selected" : "";
+        dropdown.innerHTML += `<option value="${value}" ${selected}>${value}</option>`;
     });
 }
 
-// 📌 Event Listeners
-document.getElementById("reset-button").addEventListener("click", () => {
-    filterButtonActive = false;
-    document.getElementById("filter-button-1").style.backgroundColor = "blue";
+// Reset all filters
+function resetFilters() {
+    pendingFilterActive = false;
+    document.getElementById("filter-button").style.backgroundColor = "#007bff";
     document.getElementById("search-bar").value = "";
-    ["filter-me-name", "filter-beat", "filter-basepack-desc"].forEach(id => document.getElementById(id).selectedIndex = 0);
+    document.querySelectorAll("select").forEach(dropdown => (dropdown.value = ""));
     applyFilters();
-});
+}
 
-document.getElementById("search-bar").addEventListener("input", applyFilters);
-document.getElementById("filter-me-name").addEventListener("change", applyFilters);
-document.getElementById("filter-beat").addEventListener("change", applyFilters);
-document.getElementById("filter-basepack-desc").addEventListener("change", applyFilters);
+// Debounce utility
+function debounce(fn, delay = 300) {
+    let timeout;
+    return (...args) => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => fn(...args), delay);
+    };
+}
 
-document.getElementById("filter-button-1").addEventListener("click", () => {
-    filterButtonActive = !filterButtonActive;
-    document.getElementById("filter-button-1").style.backgroundColor = filterButtonActive ? "green" : "blue";
-    applyFilters();
-});
-
-// 🚀 Initialize
+// Initialize event listeners
 function initialize() {
+    document.getElementById("reset-button").addEventListener("click", resetFilters);
+    document.getElementById("search-bar").addEventListener("input", debounce(applyFilters));
+    document.querySelectorAll("select").forEach(dropdown =>
+        dropdown.addEventListener("change", applyFilters)
+    );
+
+    document.getElementById("filter-button").addEventListener("click", () => {
+        pendingFilterActive = !pendingFilterActive;
+        document.getElementById("filter-button").style.backgroundColor = pendingFilterActive ? "green" : "#007bff";
+        applyFilters();
+    });
+
     populateTable(jsonData);
     applyFilters();
 }
 
+// Start everything
 fetchData();
