@@ -167,17 +167,6 @@
   {
     "HUL Code": "HUL-20B317D-P43748",
     "HUL Outlet Name": "SANKAR BHANDER-D",
-    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
-    "Target (VMQ)": 2,
-    "Achv Qty": 0,
-    "Status": "Pending",
-    "ME Name": "GITA HATI",
-    "Beat": "F-HATIBAGAN",
-    "Day": "WED"
-  },
-  {
-    "HUL Code": "HUL-20B317D-P43748",
-    "HUL Outlet Name": "SANKAR BHANDER-D",
     "BasePack Desc": "HLX RTD 125 ML CHOCOLATE",
     "Target (VMQ)": 3,
     "Achv Qty": 3,
@@ -196,6 +185,17 @@
     "ME Name": "Tapan Chanda",
     "Beat": "N-HATIBAGAN",
     "Day": "THU"
+  },
+  {
+    "HUL Code": "HUL-20B317D-P43748",
+    "HUL Outlet Name": "SANKAR BHANDER-D",
+    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
+    "Target (VMQ)": 2,
+    "Achv Qty": 0,
+    "Status": "Pending",
+    "ME Name": "GITA HATI",
+    "Beat": "F-HATIBAGAN",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-20B317D-P43776",
@@ -475,17 +475,6 @@
   {
     "HUL Code": "HUL-217085D-P834",
     "HUL Outlet Name": "VAREITY  STORES-D-D-D-D-D",
-    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
-    "Target (VMQ)": 2,
-    "Achv Qty": 1,
-    "Status": "Pending",
-    "ME Name": "Kishalay Chakraborty",
-    "Beat": "F-BECHU CHATTERJEE ST.",
-    "Day": "MON"
-  },
-  {
-    "HUL Code": "HUL-217085D-P834",
-    "HUL Outlet Name": "VAREITY  STORES-D-D-D-D-D",
     "BasePack Desc": "HLX RTD 125 ML CHOCOLATE",
     "Target (VMQ)": 6,
     "Achv Qty": 6,
@@ -504,6 +493,17 @@
     "ME Name": "Vivek Prasad",
     "Beat": "N-BECHU CHATTERJEE STREET",
     "Day": "WED"
+  },
+  {
+    "HUL Code": "HUL-217085D-P834",
+    "HUL Outlet Name": "VAREITY  STORES-D-D-D-D-D",
+    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
+    "Target (VMQ)": 2,
+    "Achv Qty": 1,
+    "Status": "Pending",
+    "ME Name": "Kishalay Chakraborty",
+    "Beat": "F-BECHU CHATTERJEE ST.",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-217085D-P868",
@@ -642,7 +642,7 @@
     "HUL Outlet Name": "ADI LAXMI BHANDER-D-D-D-D-D",
     "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
     "Target (VMQ)": 3,
-    "Achv Qty": 3,
+    "Achv Qty": 6,
     "Status": "Completed",
     "ME Name": "PRASANTA DAS",
     "Beat": "F-KAILASH BOSE ST",
@@ -653,8 +653,8 @@
     "HUL Outlet Name": "Mahendra Rudra & Co -D-D-D-D",
     "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
     "Target (VMQ)": 2,
-    "Achv Qty": 2,
-    "Status": "Completed",
+    "Achv Qty": 0,
+    "Status": "Pending",
     "ME Name": "PRIYANKA GHOSH",
     "Beat": "F-SOVABAZAR (SVS)",
     "Day": "MON"
@@ -794,17 +794,6 @@
   {
     "HUL Code": "HUL-217086D-1617",
     "HUL Outlet Name": "ABG G. D. TRADING-D-D-D-D",
-    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
-    "Target (VMQ)": 2,
-    "Achv Qty": 3,
-    "Status": "Completed",
-    "ME Name": "Sumanta Chatterjee",
-    "Beat": "F-BELGACHIA",
-    "Day": "WED"
-  },
-  {
-    "HUL Code": "HUL-217086D-1617",
-    "HUL Outlet Name": "ABG G. D. TRADING-D-D-D-D",
     "BasePack Desc": "HLX RTD 125 ML CHOCOLATE",
     "Target (VMQ)": 6,
     "Achv Qty": 0,
@@ -825,15 +814,15 @@
     "Day": "FRI"
   },
   {
-    "HUL Code": "HUL-217086D-1669",
-    "HUL Outlet Name": "BSJ JAGANNATH  PANDAY-D-D-D-D",
+    "HUL Code": "HUL-217086D-1617",
+    "HUL Outlet Name": "ABG G. D. TRADING-D-D-D-D",
     "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
     "Target (VMQ)": 2,
-    "Achv Qty": 0,
-    "Status": "Pending",
-    "ME Name": "Mita Das Mondal",
-    "Beat": "F-BIDHANSARANI -1",
-    "Day": "THU"
+    "Achv Qty": 3,
+    "Status": "Completed",
+    "ME Name": "Sumanta Chatterjee",
+    "Beat": "F-BELGACHIA",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-217086D-1669",
@@ -858,6 +847,17 @@
     "Day": "MON"
   },
   {
+    "HUL Code": "HUL-217086D-1669",
+    "HUL Outlet Name": "BSJ JAGANNATH  PANDAY-D-D-D-D",
+    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
+    "Target (VMQ)": 2,
+    "Achv Qty": 0,
+    "Status": "Pending",
+    "ME Name": "Mita Das Mondal",
+    "Beat": "F-BIDHANSARANI -1",
+    "Day": "THU"
+  },
+  {
     "HUL Code": "HUL-217086D-1682",
     "HUL Outlet Name": "SKB M/S BANIK STORES-D-D-D-D",
     "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
@@ -867,17 +867,6 @@
     "ME Name": "Tapan Chanda",
     "Beat": "F-SKDEVROAD -2",
     "Day": "SAT"
-  },
-  {
-    "HUL Code": "HUL-217086D-1694",
-    "HUL Outlet Name": "SBA M/S ADI GHOSH BROTHERS-D-D-D-D",
-    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
-    "Target (VMQ)": 1,
-    "Achv Qty": 0,
-    "Status": "Pending",
-    "ME Name": "DEBASISH  chakraborty",
-    "Beat": "F-SHYAMBAZAR",
-    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-217086D-1694",
@@ -900,6 +889,17 @@
     "ME Name": "Sajal  Chakraborty",
     "Beat": "N-SHYAMBAZAR",
     "Day": "THU"
+  },
+  {
+    "HUL Code": "HUL-217086D-1694",
+    "HUL Outlet Name": "SBA M/S ADI GHOSH BROTHERS-D-D-D-D",
+    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
+    "Target (VMQ)": 1,
+    "Achv Qty": 1,
+    "Status": "Completed",
+    "ME Name": "DEBASISH  chakraborty",
+    "Beat": "F-SHYAMBAZAR",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-217086D-2137",
@@ -926,17 +926,6 @@
   {
     "HUL Code": "HUL-217086D-2352",
     "HUL Outlet Name": "ABA M/S ANIL STORES-D-D-D-D",
-    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
-    "Target (VMQ)": 1,
-    "Achv Qty": 0,
-    "Status": "Pending",
-    "ME Name": "Sumanta Chatterjee",
-    "Beat": "F-BELGACHIA",
-    "Day": "WED"
-  },
-  {
-    "HUL Code": "HUL-217086D-2352",
-    "HUL Outlet Name": "ABA M/S ANIL STORES-D-D-D-D",
     "BasePack Desc": "HLX RTD 125 ML CHOCOLATE",
     "Target (VMQ)": 3,
     "Achv Qty": 0,
@@ -955,6 +944,17 @@
     "ME Name": "Sumanta Chatterjee",
     "Beat": "N-BELGACHIA",
     "Day": "FRI"
+  },
+  {
+    "HUL Code": "HUL-217086D-2352",
+    "HUL Outlet Name": "ABA M/S ANIL STORES-D-D-D-D",
+    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
+    "Target (VMQ)": 1,
+    "Achv Qty": 0,
+    "Status": "Pending",
+    "ME Name": "Sumanta Chatterjee",
+    "Beat": "F-BELGACHIA",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-217086D-2435",
@@ -1082,8 +1082,8 @@
     "HUL Outlet Name": "CHOWDHURY STORES - JR-D-D-D-D",
     "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
     "Target (VMQ)": 3,
-    "Achv Qty": 3,
-    "Status": "Completed",
+    "Achv Qty": 0,
+    "Status": "Pending",
     "ME Name": "DEBASISH  chakraborty",
     "Beat": "F-NAGER BAZAR (W/S)",
     "Day": "WED"
@@ -1577,8 +1577,8 @@
     "HUL Outlet Name": "NEW GUPTA BHANDER - MANIKTALA-D-D-D",
     "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
     "Target (VMQ)": 2,
-    "Achv Qty": 3,
-    "Status": "Completed",
+    "Achv Qty": 1,
+    "Status": "Pending",
     "ME Name": "PRASANTA DAS",
     "Beat": "F-MANICKTALA",
     "Day": "TUE"
@@ -2070,17 +2070,6 @@
   {
     "HUL Code": "HUL-219176D-P34685",
     "HUL Outlet Name": "ARMAN STORES-D",
-    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
-    "Target (VMQ)": 1,
-    "Achv Qty": 1,
-    "Status": "Completed",
-    "ME Name": "Sajal  Chakraborty",
-    "Beat": "F-COLLEGE STREET (SBJ)",
-    "Day": "FRI"
-  },
-  {
-    "HUL Code": "HUL-219176D-P34685",
-    "HUL Outlet Name": "ARMAN STORES-D",
     "BasePack Desc": "HLX RTD 125 ML CHOCOLATE",
     "Target (VMQ)": 3,
     "Achv Qty": 0,
@@ -2101,15 +2090,15 @@
     "Day": "TUE"
   },
   {
-    "HUL Code": "HUL-219176D-P34843",
-    "HUL Outlet Name": "AYUSH STORES-D",
+    "HUL Code": "HUL-219176D-P34685",
+    "HUL Outlet Name": "ARMAN STORES-D",
     "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
     "Target (VMQ)": 1,
     "Achv Qty": 1,
     "Status": "Completed",
-    "ME Name": "Indrajit Sarkar",
-    "Beat": "K-LALGHAR",
-    "Day": "TUE"
+    "ME Name": "Sajal  Chakraborty",
+    "Beat": "F-COLLEGE STREET (SBJ)",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-219176D-P34843",
@@ -2132,6 +2121,17 @@
     "ME Name": "PRASANTA DAS",
     "Beat": "N-KALINDI",
     "Day": "FRI"
+  },
+  {
+    "HUL Code": "HUL-219176D-P34843",
+    "HUL Outlet Name": "AYUSH STORES-D",
+    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
+    "Target (VMQ)": 1,
+    "Achv Qty": 1,
+    "Status": "Completed",
+    "ME Name": "Indrajit Sarkar",
+    "Beat": "K-LALGHAR",
+    "Day": "TUE"
   },
   {
     "HUL Code": "HUL-219176D-P35307",
@@ -2158,17 +2158,6 @@
   {
     "HUL Code": "HUL-219176D-P35497",
     "HUL Outlet Name": "TARAMA VARIETY STORES-D",
-    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
-    "Target (VMQ)": 1,
-    "Achv Qty": 0,
-    "Status": "Pending",
-    "ME Name": "DEBASISH  chakraborty",
-    "Beat": "F-KALINDI",
-    "Day": "TUE"
-  },
-  {
-    "HUL Code": "HUL-219176D-P35497",
-    "HUL Outlet Name": "TARAMA VARIETY STORES-D",
     "BasePack Desc": "HLX RTD 125 ML CHOCOLATE",
     "Target (VMQ)": 3,
     "Achv Qty": 0,
@@ -2187,6 +2176,17 @@
     "ME Name": "PRASANTA DAS",
     "Beat": "N-KALINDI",
     "Day": "FRI"
+  },
+  {
+    "HUL Code": "HUL-219176D-P35497",
+    "HUL Outlet Name": "TARAMA VARIETY STORES-D",
+    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
+    "Target (VMQ)": 1,
+    "Achv Qty": 0,
+    "Status": "Pending",
+    "ME Name": "DEBASISH  chakraborty",
+    "Beat": "F-KALINDI",
+    "Day": "TUE"
   },
   {
     "HUL Code": "HUL-219176D-P35902",
@@ -2479,8 +2479,8 @@
     "HUL Outlet Name": "Modern Herby House-D",
     "BasePack Desc": "HLX RTD 125 ML KESAR BADAM",
     "Target (VMQ)": 6,
-    "Achv Qty": 0,
-    "Status": "Pending",
+    "Achv Qty": 6,
+    "Status": "Completed",
     "ME Name": "GITA HATI",
     "Beat": "N-RAJA DINENDTRA ST",
     "Day": "SAT"
@@ -2495,17 +2495,6 @@
     "ME Name": "Kishalay Chakraborty",
     "Beat": "F-AMARPALLY-2",
     "Day": "WED"
-  },
-  {
-    "HUL Code": "HUL-219176D-P46642",
-    "HUL Outlet Name": "BINA BHANDAR-D",
-    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
-    "Target (VMQ)": 2,
-    "Achv Qty": 2,
-    "Status": "Completed",
-    "ME Name": "DEBASISH  chakraborty",
-    "Beat": "F-KALINDI",
-    "Day": "TUE"
   },
   {
     "HUL Code": "HUL-219176D-P46642",
@@ -2528,6 +2517,17 @@
     "ME Name": "PRASANTA DAS",
     "Beat": "N-KALINDI",
     "Day": "FRI"
+  },
+  {
+    "HUL Code": "HUL-219176D-P46642",
+    "HUL Outlet Name": "BINA BHANDAR-D",
+    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
+    "Target (VMQ)": 2,
+    "Achv Qty": 2,
+    "Status": "Completed",
+    "ME Name": "DEBASISH  chakraborty",
+    "Beat": "F-KALINDI",
+    "Day": "TUE"
   },
   {
     "HUL Code": "HUL-219176D-P46697",
@@ -2587,17 +2587,6 @@
   {
     "HUL Code": "HUL-219176D-P46950",
     "HUL Outlet Name": "TRIO ENTERPRISE-D",
-    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
-    "Target (VMQ)": 2,
-    "Achv Qty": 2,
-    "Status": "Completed",
-    "ME Name": "DEBASISH  chakraborty",
-    "Beat": "F-KALINDI",
-    "Day": "TUE"
-  },
-  {
-    "HUL Code": "HUL-219176D-P46950",
-    "HUL Outlet Name": "TRIO ENTERPRISE-D",
     "BasePack Desc": "HLX RTD 125 ML CHOCOLATE",
     "Target (VMQ)": 3,
     "Achv Qty": 2,
@@ -2616,6 +2605,17 @@
     "ME Name": "PRASANTA DAS",
     "Beat": "N-KALINDI",
     "Day": "FRI"
+  },
+  {
+    "HUL Code": "HUL-219176D-P46950",
+    "HUL Outlet Name": "TRIO ENTERPRISE-D",
+    "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
+    "Target (VMQ)": 2,
+    "Achv Qty": 2,
+    "Status": "Completed",
+    "ME Name": "DEBASISH  chakraborty",
+    "Beat": "F-KALINDI",
+    "Day": "TUE"
   },
   {
     "HUL Code": "HUL-219176D-P47650",
@@ -2710,7 +2710,7 @@
     "HUL Outlet Name": "MPS M/S SARKAR STORES-D-D-D-D",
     "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
     "Target (VMQ)": 1,
-    "Achv Qty": 1,
+    "Achv Qty": 3,
     "Status": "Completed",
     "ME Name": "GITA HATI",
     "Beat": "F-RAJA DINENDRA ST",
@@ -2765,8 +2765,8 @@
     "HUL Outlet Name": "JAISWAL FOOD STORE (SVS)-D-D-D-D",
     "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
     "Target (VMQ)": 3,
-    "Achv Qty": 3,
-    "Status": "Completed",
+    "Achv Qty": 0,
+    "Status": "Pending",
     "ME Name": "PRIYANKA GHOSH",
     "Beat": "F-SOVABAZAR (SVS)",
     "Day": "MON"
@@ -2798,8 +2798,8 @@
     "HUL Outlet Name": "LAXMI BHANDAR (SVS)K B-D-D-D-D-D",
     "BasePack Desc": "KISSAN SWEET N SPICY DOY 200 GM",
     "Target (VMQ)": 2,
-    "Achv Qty": 0,
-    "Status": "Pending",
+    "Achv Qty": 3,
+    "Status": "Completed",
     "ME Name": "PRASANTA DAS",
     "Beat": "F-KAILASH BOSE ST",
     "Day": "SAT"
