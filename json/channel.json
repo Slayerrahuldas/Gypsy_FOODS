@@ -1,0 +1,22 @@
+[
+  {
+    "HUL Code": "HUL-217085D-P1136",
+    "HUL Outlet Name": "A K STORES-D-D-D-D-D",
+    "TGT": 0,
+    "ACH": 5221,
+    "BTD": 0,
+    "ME Name": "JAYANTA  MANDAL",
+    "Beat": "D-VIVEKANANDA ROAD",
+    "Day": "THU"
+  },
+  {
+    "HUL Code": "HUL-217086D-P1137",
+    "HUL Outlet Name": "B K STORES-X-Y-Z",
+    "TGT": 100,
+    "ACH": 60,
+    "BTD": 20,
+    "ME Name": "RAHUL DAS",
+    "Beat": "SALT LAKE",
+    "Day": "FRI"
+  }
+]
