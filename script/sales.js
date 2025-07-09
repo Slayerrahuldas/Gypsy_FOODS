@@ -19,7 +19,7 @@ function populateTable(data) {
     let totals = { "LYRR": 0, "JQRR": 0, "L3M": 0, "MTD": 0 };
 
     const selectedMeName = document.getElementById("filter-me-name").value || "ALL ME";
-    const selectedDay = document.getElementById("filter-day").value || "ALL Days";
+    const selectedDay = document.getElementById("filter-beat").value || "ALL Beat";
 
     data.forEach(item => {
         totalColumns.forEach(key => {
