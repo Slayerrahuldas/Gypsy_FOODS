@@ -16,10 +16,7 @@ function populateTable(data) {
     tableBody.innerHTML = "";
 
     const totalColumns = ["LYRR", "JQRR", "L3M", "MTD"];
-    let totals = { "LYRR": 0, "JQRR": 0, "L3M": 0, "MTD": 0 };
-
-    const selectedMeName = document.getElementById("filter-me-name").value || "ALL ME";
-    const selectedDay = document.getElementById("filter-beat").value || "ALL Beat";
+    let totals = { LYRR: 0, JQRR: 0, L3M: 0, MTD: 0 };
 
     data.forEach(item => {
         totalColumns.forEach(key => {
@@ -27,56 +24,37 @@ function populateTable(data) {
         });
     });
 
+    // Total Row
     const totalRow = document.createElement("tr");
     totalRow.style.fontWeight = "bold";
     totalRow.style.backgroundColor = "#f2f2f2";
-
-    const indexCell = document.createElement("td");
-    indexCell.textContent = "Total";
-    totalRow.appendChild(indexCell);
-
-    const codeCell = document.createElement("td");
-    codeCell.textContent = "-";
-    totalRow.appendChild(codeCell);
-
-    const outletCell = document.createElement("td");
-    outletCell.textContent = "-";
-    totalRow.appendChild(outletCell);
-
-    const meNameCell = document.createElement("td");
-    meNameCell.textContent = selectedMeName;
-    totalRow.appendChild(meNameCell);
-
-    const dayCell = document.createElement("td");
-    dayCell.textContent = selectedDay;
-    totalRow.appendChild(dayCell);
-
-    const plgCell = document.createElement("td");
-    plgCell.textContent = "FOODS";
-    totalRow.appendChild(plgCell);
-
-    totalColumns.forEach(key => {
-        const totalCell = document.createElement("td");
-        totalCell.textContent = totals[key];
-        totalRow.appendChild(totalCell);
-    });
-
+    totalRow.innerHTML = `
+        <td>Total</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>${totals.LYRR}</td>
+        <td>${totals.JQRR}</td>
+        <td>${totals.L3M}</td>
+        <td>${totals.MTD}</td>
+    `;
     tableBody.appendChild(totalRow);
 
     const totalRows = data.length;
     data.forEach((item, index) => {
         const row = document.createElement("tr");
-
-        const cellIndex = document.createElement("td");
-        cellIndex.textContent = totalRows - index;
-        row.appendChild(cellIndex);
-
-        ["HUL Code", "HUL Outlet Name", "ME Name", "Beat", "PLG", "LYRR", "JQRR", "L3M", "MTD"].forEach(key => {
-            const cell = document.createElement("td");
-            cell.textContent = item[key] || "-";
-            row.appendChild(cell);
-        });
-
+        row.innerHTML = `
+            <td>${totalRows - index}</td>
+            <td>${item["HUL Code"] || "-"}</td>
+            <td>${item["HUL Outlet Name"] || "-"}</td>
+            <td>${item["Beat"] || "-"}</td>
+            <td>${item["PLG"] || "-"}</td>
+            <td>${item["LYRR"] || 0}</td>
+            <td>${item["JQRR"] || 0}</td>
+            <td>${item["L3M"] || 0}</td>
+            <td>${item["MTD"] || 0}</td>
+        `;
         tableBody.appendChild(row);
     });
 }
@@ -84,20 +62,22 @@ function populateTable(data) {
 function applyFilters() {
     let filteredData = [...jsonData];
 
-    const filterMeName = document.getElementById("filter-me-name").value;
-    const filterDay = document.getElementById("filter-day").value;
+    const meName = document.getElementById("filter-me-name").value;
+    const day = document.getElementById("filter-day").value;
     const searchQuery = document.getElementById("search-bar").value.toLowerCase();
 
-    if (filterMeName) {
-        filteredData = filteredData.filter(row => row["ME Name"] === filterMeName);
+    if (meName) {
+        filteredData = filteredData.filter(row => row["ME Name"] === meName);
     }
-    if (filterDay) {
-        filteredData = filteredData.filter(row => row["Day"] === filterDay);
+
+    if (day) {
+        filteredData = filteredData.filter(row => row["Day"] === day);
     }
+
     if (searchQuery) {
         filteredData = filteredData.filter(row =>
-            row["HUL Code"].toLowerCase().includes(searchQuery) ||
-            row["HUL Outlet Name"].toLowerCase().includes(searchQuery)
+            (row["HUL Code"] || "").toLowerCase().includes(searchQuery) ||
+            (row["HUL Outlet Name"] || "").toLowerCase().includes(searchQuery)
         );
     }
 
@@ -120,22 +100,18 @@ function updateDropdowns(filteredData) {
 function populateSelectDropdown(id, optionsSet, columnName) {
     const dropdown = document.getElementById(id);
     const selectedValue = dropdown.value;
-    dropdown.innerHTML = "";
+    dropdown.innerHTML = `<option value="">${columnName}</option>`;
 
-    const defaultOption = document.createElement("option");
-    defaultOption.textContent = columnName;
-    defaultOption.value = "";
-    dropdown.appendChild(defaultOption);
-
-    optionsSet.forEach(option => {
-        const optionElement = document.createElement("option");
-        optionElement.textContent = option;
-        optionElement.value = option;
-        if (option === selectedValue) optionElement.selected = true;
-        dropdown.appendChild(optionElement);
+    [...optionsSet].sort().forEach(option => {
+        const opt = document.createElement("option");
+        opt.value = option;
+        opt.textContent = option;
+        if (option === selectedValue) opt.selected = true;
+        dropdown.appendChild(opt);
     });
 }
 
+// Reset
 document.getElementById("reset-button").addEventListener("click", () => {
     document.getElementById("search-bar").value = "";
     document.getElementById("filter-me-name").selectedIndex = 0;
@@ -143,6 +119,7 @@ document.getElementById("reset-button").addEventListener("click", () => {
     applyFilters();
 });
 
+// Events
 document.getElementById("search-bar").addEventListener("input", applyFilters);
 document.getElementById("filter-me-name").addEventListener("change", applyFilters);
 document.getElementById("filter-day").addEventListener("change", applyFilters);
