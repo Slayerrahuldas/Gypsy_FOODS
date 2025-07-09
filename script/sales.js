@@ -19,7 +19,7 @@ function populateTable(data) {
     let totals = { "LYRR": 0, "JQRR": 0, "L3M": 0, "MTD": 0 };
 
     const selectedMeName = document.getElementById("filter-me-name").value || "ALL ME";
-    const selectedBeat = document.getElementById("filter-beat").value || "ALL Beats";
+    const selectedDay = document.getElementById("filter-day").value || "ALL Days";
 
     data.forEach(item => {
         totalColumns.forEach(key => {
@@ -47,9 +47,9 @@ function populateTable(data) {
     meNameCell.textContent = selectedMeName;
     totalRow.appendChild(meNameCell);
 
-    const beatCell = document.createElement("td");
-    beatCell.textContent = selectedBeat;
-    totalRow.appendChild(beatCell);
+    const dayCell = document.createElement("td");
+    dayCell.textContent = selectedDay;
+    totalRow.appendChild(dayCell);
 
     const plgCell = document.createElement("td");
     plgCell.textContent = "FOODS";
@@ -71,7 +71,7 @@ function populateTable(data) {
         cellIndex.textContent = totalRows - index;
         row.appendChild(cellIndex);
 
-        ["HUL Code", "HUL Outlet Name", "ME Name", "Beat", "PLG", "LYRR", "JQRR", "L3M", "MTD"].forEach(key => {
+        ["HUL Code", "HUL Outlet Name", "ME Name", "Day", "PLG", "LYRR", "JQRR", "L3M", "MTD"].forEach(key => {
             const cell = document.createElement("td");
             cell.textContent = item[key] || "-";
             row.appendChild(cell);
@@ -85,14 +85,14 @@ function applyFilters() {
     let filteredData = [...jsonData];
 
     const filterMeName = document.getElementById("filter-me-name").value;
-    const filterBeat = document.getElementById("filter-beat").value;
+    const filterDay = document.getElementById("filter-day").value;
     const searchQuery = document.getElementById("search-bar").value.toLowerCase();
 
     if (filterMeName) {
         filteredData = filteredData.filter(row => row["ME Name"] === filterMeName);
     }
-    if (filterBeat) {
-        filteredData = filteredData.filter(row => row["Beat"] === filterBeat);
+    if (filterDay) {
+        filteredData = filteredData.filter(row => row["Day"] === filterDay);
     }
     if (searchQuery) {
         filteredData = filteredData.filter(row =>
@@ -106,15 +106,15 @@ function applyFilters() {
 }
 
 function updateDropdowns(filteredData) {
-    const meNames = new Set(), beats = new Set();
+    const meNames = new Set(), days = new Set();
 
     filteredData.forEach(row => {
         if (row["ME Name"]) meNames.add(row["ME Name"]);
-        if (row["Beat"]) beats.add(row["Beat"]);
+        if (row["Day"]) days.add(row["Day"]);
     });
 
     populateSelectDropdown("filter-me-name", meNames, "ME Name");
-    populateSelectDropdown("filter-beat", beats, "Beat");
+    populateSelectDropdown("filter-day", days, "Day");
 }
 
 function populateSelectDropdown(id, optionsSet, columnName) {
@@ -139,13 +139,13 @@ function populateSelectDropdown(id, optionsSet, columnName) {
 document.getElementById("reset-button").addEventListener("click", () => {
     document.getElementById("search-bar").value = "";
     document.getElementById("filter-me-name").selectedIndex = 0;
-    document.getElementById("filter-beat").selectedIndex = 0;
+    document.getElementById("filter-day").selectedIndex = 0;
     applyFilters();
 });
 
 document.getElementById("search-bar").addEventListener("input", applyFilters);
 document.getElementById("filter-me-name").addEventListener("change", applyFilters);
-document.getElementById("filter-beat").addEventListener("change", applyFilters);
+document.getElementById("filter-day").addEventListener("change", applyFilters);
 
 function initialize() {
     populateTable(jsonData);
