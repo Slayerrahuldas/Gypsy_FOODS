@@ -13,8 +13,8 @@
     "HUL Code": "HUL-217093D-P0871",
     "HUL Outlet Name": "BABA TARAK NATH-D-P",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 555,
+    "BTD": 0,
     "ME Name": "Avijit Kumar Nandy",
     "Beat": "U2NC-BAGUIHATI BAZAR",
     "Day": "TUE"
@@ -195,15 +195,15 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Indrajit Sarkar",
-    "Beat": "D-AMARPALLY+NUTS",
-    "Day": "WED"
+    "ME Name": "PARIJIT NANDY",
+    "Beat": "U2NC-AMARPALLY",
+    "Day": "SAT"
   },
   {
     "HUL Code": "HUL-219176D-P43926",
     "HUL Outlet Name": "THE NEW CALCUTTA STORE-D",
     "Status": "PP",
-    "Shikhar": 14098,
+    "Shikhar": 15746,
     "BTD": 0,
     "ME Name": "Munmun Shaw",
     "Beat": "U2NC-KAILASH BOSE STREET",
@@ -255,8 +255,8 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Avijit Kumar Nandy",
-    "Beat": "U2NC-MANIKTALA",
+    "ME Name": "PRIYANKA GHOSH",
+    "Beat": "N-MANICKTALA",
     "Day": "THU"
   },
   {
@@ -313,7 +313,7 @@
     "HUL Code": "HUL-219176D-P47699",
     "HUL Outlet Name": "SHRIJA VAREITY STORES-D-U2NC",
     "Status": "PP",
-    "Shikhar": 556,
+    "Shikhar": 1144,
     "BTD": 0,
     "ME Name": "PARIJIT NANDY",
     "Beat": "U2NC-BIDHAN SARANI -2",
@@ -403,8 +403,8 @@
     "HUL Code": "HUL-217115D-7389",
     "HUL Outlet Name": "CSA M/S ADI CITY VARIETY-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1000,
+    "BTD": 0,
     "ME Name": "TAPAS MUHURI",
     "Beat": "U2NC-COLLEGE STREET(COS)",
     "Day": "FRI"
@@ -423,8 +423,8 @@
     "HUL Code": "HUL-217115D-7398",
     "HUL Outlet Name": "CSR M/S RAJ LAXMI STATIONERS-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 997,
+    "BTD": 0,
     "ME Name": "TAPAS MUHURI",
     "Beat": "U2NC-COLLEGE STREET(COS)",
     "Day": "FRI"
@@ -433,8 +433,8 @@
     "HUL Code": "HUL-217115D-7401",
     "HUL Outlet Name": "ADI PAL CO.-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 2957,
+    "BTD": 0,
     "ME Name": "TAPAS MUHURI",
     "Beat": "U2NC-COLLEGE STREET(COS)",
     "Day": "FRI"
@@ -465,9 +465,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-BIDHANSARANI-2",
-    "Day": "FRI"
+    "ME Name": "PARIJIT NANDY",
+    "Beat": "U2NC-BIDHAN SARANI -2",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-217093D-P0865",
@@ -513,8 +513,8 @@
     "HUL Code": "HUL-217115D-P17408",
     "HUL Outlet Name": "Maa Tara Store",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1036,
+    "BTD": 0,
     "ME Name": "TAPAS MUHURI",
     "Beat": "U2NC-BAGUIATI ROAD",
     "Day": "WED"
@@ -545,9 +545,9 @@
     "Status": "PP",
     "Shikhar": 3163,
     "BTD": 0,
-    "ME Name": "Subrata Dey",
-    "Beat": "P-VIVEKANANDA ROAD",
-    "Day": "MON"
+    "ME Name": "Vivek Prasad",
+    "Beat": "F-VIVEKANANDA ROAD",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-217085D-P973",
@@ -595,9 +595,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "PARIJIT NANDY",
-    "Beat": "U2NC-MURARI PUKUR",
-    "Day": "WED"
+    "ME Name": "GITA HATI",
+    "Beat": "F-MURARIPUKUR",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-217115P-6547",
@@ -805,9 +805,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-BIDHANSARANI-2",
-    "Day": "FRI"
+    "ME Name": "PARIJIT NANDY",
+    "Beat": "U2NC-BIDHAN SARANI -2",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-217086D-1596",
@@ -843,7 +843,7 @@
     "HUL Code": "HUL-217086D-1672",
     "HUL Outlet Name": "MODERN MUSEUM-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 14226,
+    "Shikhar": 15525,
     "BTD": 0,
     "ME Name": "PARIJIT NANDY",
     "Beat": "U2NC-BIDHAN SARANI -2",
@@ -883,11 +883,11 @@
     "HUL Code": "HUL-217086D-2071",
     "HUL Outlet Name": "BSN M/S NEW NATIONAL (V) STORES-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 12102,
+    "Shikhar": 18028,
     "BTD": 0,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-BIDHANSARANI-2+NUTS",
-    "Day": "FRI"
+    "ME Name": "PARIJIT NANDY",
+    "Beat": "U2NC-BIDHAN SARANI -2",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-217086D-2535",
@@ -925,9 +925,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-BIDHANSARANI-2+NUTS",
-    "Day": "FRI"
+    "ME Name": "PARIJIT NANDY",
+    "Beat": "U2NC-BIDHAN SARANI -2",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-217115D-P20812",
@@ -943,8 +943,8 @@
     "HUL Code": "HUL-217086D-36",
     "HUL Outlet Name": "BSA M/S ANNAPURNA VARIETIES(A)-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1079,
+    "BTD": 0,
     "ME Name": "PARIJIT NANDY",
     "Beat": "U2NC-BIDHAN SARANI -2",
     "Day": "MON"
@@ -1003,8 +1003,8 @@
     "HUL Code": "HUL-217085D-P1031",
     "HUL Outlet Name": "MUKHTER SHOW.-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 3922,
+    "BTD": 0,
     "ME Name": "PRIYANKA GHOSH",
     "Beat": "F-TERITTI+NUTS",
     "Day": "FRI"
@@ -1123,7 +1123,7 @@
     "HUL Code": "HUL-217085D-P771",
     "HUL Outlet Name": "NEW BENGAL VARIETY STORES-D-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 3123,
+    "Shikhar": 3687,
     "BTD": 0,
     "ME Name": "Munmun Shaw",
     "Beat": "U2NC-BECHU CHATTERJEE ST",
@@ -1423,8 +1423,8 @@
     "HUL Code": "HUL-219176D-P35772",
     "HUL Outlet Name": "KHUSHI STORES-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 2433,
+    "BTD": 0,
     "ME Name": "Mita Das Mondal",
     "Beat": "F-JESSORE ROAD",
     "Day": "MON"
@@ -1443,7 +1443,7 @@
     "HUL Code": "HUL-219176D-P35902",
     "HUL Outlet Name": "NARAYAN STORES-D-U2NC",
     "Status": "PP",
-    "Shikhar": 738,
+    "Shikhar": 9258,
     "BTD": 0,
     "ME Name": "Avijit Kumar Nandy",
     "Beat": "U2NC-BAGUIHATI BAZAR",
@@ -1475,9 +1475,9 @@
     "Status": "PP",
     "Shikhar": 2972,
     "BTD": 0,
-    "ME Name": "Indrajit Sarkar",
-    "Beat": "D-SATGACHI-2",
-    "Day": "SAT"
+    "ME Name": "Samir Kumar Samanta",
+    "Beat": "P-SATGACHI-2",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-219176D-P39783",
@@ -1553,8 +1553,8 @@
     "HUL Code": "HUL-219176D-P44447",
     "HUL Outlet Name": "NARUGOPAL BHANDER-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 5321,
+    "BTD": 0,
     "ME Name": "GITA HATI",
     "Beat": "F-SK DEV ROAD-1",
     "Day": "TUE"
@@ -1605,15 +1605,15 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-KAZIPARA",
-    "Day": "SAT"
+    "ME Name": "PRIYANKA GHOSH",
+    "Beat": "F-KAZIPARA+NUTS",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-219176D-P46814",
     "HUL Outlet Name": "Gain & Sons-D",
     "Status": "PP",
-    "Shikhar": 28239,
+    "Shikhar": 37355,
     "BTD": 0,
     "ME Name": "Avijit Kumar Nandy",
     "Beat": "U2NC-KALINDI",
@@ -1685,9 +1685,9 @@
     "Status": "PP",
     "Shikhar": 4214,
     "BTD": 0,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-COLLAGE STREET (SBJ)",
-    "Day": "TUE"
+    "ME Name": "Sajal  Chakraborty",
+    "Beat": "F-COLLEGE STREET (SBJ)",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-217115D-7274",
@@ -1773,8 +1773,8 @@
     "HUL Code": "HUL-217093D-P0204",
     "HUL Outlet Name": "Radha Rani Stores - KL-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 2178,
+    "BTD": 0,
     "ME Name": "DEBASISH  chakraborty",
     "Beat": "F-KALINDI",
     "Day": "TUE"
@@ -1783,7 +1783,7 @@
     "HUL Code": "HUL-217093D-P0864",
     "HUL Outlet Name": "SREE GURU ST-D-D-D-D-P",
     "Status": "FOODS",
-    "Shikhar": 5746,
+    "Shikhar": 9716,
     "BTD": 0,
     "ME Name": "Sajal  Chakraborty",
     "Beat": "F-BAGUIHATI BAZAR",
@@ -1813,7 +1813,7 @@
     "HUL Code": "HUL-217093D-P0896",
     "HUL Outlet Name": "Jyoti Stores-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 1193,
+    "Shikhar": 2383,
     "BTD": 0,
     "ME Name": "Sumanta Chatterjee",
     "Beat": "F-BAGUIHATI RD+NUTS",
@@ -1833,8 +1833,8 @@
     "HUL Code": "HUL-217093D-P149",
     "HUL Outlet Name": "NEW MAAKALI STORES-D-D-D-D-U2NC",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1511,
+    "BTD": 0,
     "ME Name": "Sajal  Chakraborty",
     "Beat": "F-BAGUIHATI BAZAR",
     "Day": "WED"
@@ -1883,8 +1883,8 @@
     "HUL Code": "HUL-217115D-P19336",
     "HUL Outlet Name": "New Jyostna Stores-D-D-D-U2NC",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 3705,
+    "BTD": 0,
     "ME Name": "Tanmoy Das",
     "Beat": "U2NC-BAGMARI",
     "Day": "SAT"
@@ -1943,7 +1943,7 @@
     "HUL Code": "HUL-217115F-7465",
     "HUL Outlet Name": "CSR M/S RAM KRISHNA BHANDER-F-D-D",
     "Status": "FOODS",
-    "Shikhar": 5750,
+    "Shikhar": 5658,
     "BTD": 0,
     "ME Name": "Sajal  Chakraborty",
     "Beat": "F-COLLEGE STREET (SBJ)",
@@ -1985,9 +1985,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Indrajit Sarkar",
-    "Beat": "D-SATGACHI-2",
-    "Day": "SAT"
+    "ME Name": "Samir Kumar Samanta",
+    "Beat": "P-SATGACHI-2",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-219176D-P27021",
@@ -2083,8 +2083,8 @@
     "HUL Code": "HUL-20B317D-P43279",
     "HUL Outlet Name": "Bagmari Mart-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 11452,
+    "BTD": 0,
     "ME Name": "Sumanta Chatterjee",
     "Beat": "F-BAGMARI",
     "Day": "MON"
@@ -2105,18 +2105,18 @@
     "Status": "FOODS",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-JESSORE RD-2",
+    "ME Name": "Kishalay Chakraborty",
+    "Beat": "F-JESSORE RD-2",
     "Day": "TUE"
   },
   {
     "HUL Code": "HUL-217093D-P1555",
     "HUL Outlet Name": "RADHA KRISHNA BHANDAR-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-JESSORE RD-2",
+    "Shikhar": 1229,
+    "BTD": 0,
+    "ME Name": "Subrata Dey",
+    "Beat": "P-JESSORE RD-2",
     "Day": "TUE"
   },
   {
@@ -2173,11 +2173,11 @@
     "HUL Code": "HUL-217086D-204",
     "HUL Outlet Name": "SPL M/S LAXMI BHANDER-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
-    "ME Name": "PALLABCHOWDHURY",
-    "Beat": "U2NC-SHYAMPUKUR",
-    "Day": "FRI"
+    "Shikhar": 2949,
+    "BTD": 0,
+    "ME Name": "GITA HATI",
+    "Beat": "F-SHYAMPUKUR",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-217086D-206",
@@ -2235,9 +2235,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-CHALKBAZAR+NUTS",
-    "Day": "WED"
+    "ME Name": "Samir Kumar Samanta",
+    "Beat": "P-CHALKBAZAR",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-217086D-2923",
@@ -2253,8 +2253,8 @@
     "HUL Code": "HUL-217086D-524",
     "HUL Outlet Name": "SPS M/S S. SAHA-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1556,
+    "BTD": 0,
     "ME Name": "PALLABCHOWDHURY",
     "Beat": "U2NC-SHYAMPUKUR",
     "Day": "FRI"
@@ -2293,8 +2293,8 @@
     "HUL Code": "HUL-217085D-PAR360",
     "HUL Outlet Name": "Mahendra Rudra & Co -D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 4346,
+    "BTD": 0,
     "ME Name": "PRIYANKA GHOSH",
     "Beat": "F-SOVABAZAR (SVS)",
     "Day": "MON"
@@ -2323,7 +2323,7 @@
     "HUL Code": "HUL-217085D-P1044",
     "HUL Outlet Name": "MAHAPRABHU BHANDAR",
     "Status": "FOODS",
-    "Shikhar": 3578,
+    "Shikhar": 7038,
     "BTD": 0,
     "ME Name": "Kishalay Chakraborty",
     "Beat": "F-BECHU CHATTERJEE ST.",
@@ -2453,7 +2453,7 @@
     "HUL Code": "HUL-20B317P44531",
     "HUL Outlet Name": "Guha And Sons",
     "Status": "FOODS",
-    "Shikhar": 3766,
+    "Shikhar": 3593,
     "BTD": 0,
     "ME Name": "Sumanta Chatterjee",
     "Beat": "F-KESHAB SEN STREET+NUTS",
@@ -2533,8 +2533,8 @@
     "HUL Code": "HUL-217575P526",
     "HUL Outlet Name": "FAIR PRICES SHOP-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 7085,
+    "BTD": 0,
     "ME Name": "GITA HATI",
     "Beat": "F-SK DEV ROAD-1",
     "Day": "TUE"
@@ -2673,8 +2673,8 @@
     "HUL Code": "HUL-219176D-P33584",
     "HUL Outlet Name": "KALI STORES-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1495,
+    "BTD": 0,
     "ME Name": "Munmun Shaw",
     "Beat": "U2NC-BECHU CHATTERJEE ST",
     "Day": "WED"
@@ -2723,8 +2723,8 @@
     "HUL Code": "HUL-219176D-P33997",
     "HUL Outlet Name": "RAKESH SHAW-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 518,
+    "BTD": 0,
     "ME Name": "SAMAR ADHIKARI",
     "Beat": "K-GOURIBARI+NUTS",
     "Day": "MON"
@@ -2983,11 +2983,11 @@
     "HUL Code": "HUL-219176D-P35382",
     "HUL Outlet Name": "HALDER &SONS-D",
     "Status": "FOODS",
-    "Shikhar": 2023,
+    "Shikhar": 2014,
     "BTD": 0,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-KESHAB SEN ST-2",
-    "Day": "THU"
+    "ME Name": "Vivek Prasad",
+    "Beat": "N-KESHAB SEN ST-2",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-219176D-P35412",
@@ -3075,9 +3075,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-KESHAB SEN ST-2",
-    "Day": "THU"
+    "ME Name": "Samir Kumar Samanta",
+    "Beat": "P-KESHAB SEN ST-2",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-219176D-P35602",
@@ -3275,9 +3275,9 @@
     "Status": "PP",
     "Shikhar": 1054,
     "BTD": 0,
-    "ME Name": "Avijit Kumar Nandy",
-    "Beat": "U2NC-BAGUIHATI BAZAR",
-    "Day": "TUE"
+    "ME Name": "Sukalyan  Saha",
+    "Beat": "D-BAGUIHATI BAZAR",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-219176D-P36502",
@@ -3325,9 +3325,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Avijit Kumar Nandy",
-    "Beat": "U2NC-BAGUIHATI BAZAR",
-    "Day": "TUE"
+    "ME Name": "Sukalyan  Saha",
+    "Beat": "D-BAGUIHATI (W/S)",
+    "Day": "SAT"
   },
   {
     "HUL Code": "HUL-219176D-P36767",
@@ -4195,9 +4195,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Shahina Yasmin",
-    "Beat": "U2NC-RAJA DINENDRA ST",
-    "Day": "SAT"
+    "ME Name": "Sumit Patra",
+    "Beat": "D-RAJA DINENDRA ST",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-219176D-P42316",
@@ -4613,8 +4613,8 @@
     "HUL Code": "HUL-217115D-P23714",
     "HUL Outlet Name": "SITALA ST-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1954,
+    "BTD": 0,
     "ME Name": "SAMAR ADHIKARI",
     "Beat": "K-GOURIBARI+NUTS",
     "Day": "MON"
@@ -4625,8 +4625,8 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Avijit Paul",
-    "Beat": "D-KAZIPARA",
+    "ME Name": "PRIYANKA GHOSH",
+    "Beat": "F-KAZIPARA+NUTS",
     "Day": "WED"
   },
   {
@@ -4803,8 +4803,8 @@
     "HUL Code": "HUL-219176D-P44462",
     "HUL Outlet Name": "ARNAB STORES-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 2596,
+    "BTD": 0,
     "ME Name": "Munmun Shaw",
     "Beat": "U2NC-BECHU CHATTERJEE ST",
     "Day": "WED"
@@ -4945,16 +4945,16 @@
     "Status": "Dormant",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Subrata Dey",
-    "Beat": "P-JESSORE RD-2",
+    "ME Name": "Utpal  Chakraborty",
+    "Beat": "D-JESSORE RD-2",
     "Day": "TUE"
   },
   {
     "HUL Code": "HUL-219176D-P44672",
     "HUL Outlet Name": "Sairam Stores-D",
     "Status": "DETS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 4638,
+    "BTD": 0,
     "ME Name": "Utpal  Chakraborty",
     "Beat": "D-JESSORE RD-2",
     "Day": "TUE"
@@ -5285,9 +5285,9 @@
     "Status": "FOODS",
     "Shikhar": 2411,
     "BTD": 0,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-BIDHANSARANI-2",
-    "Day": "FRI"
+    "ME Name": "GITA HATI",
+    "Beat": "N-RAJA DINENDTRA ST",
+    "Day": "SAT"
   },
   {
     "HUL Code": "HUL-219176D-P45601",
@@ -5655,9 +5655,9 @@
     "Status": "Dormant",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-SATGACHI-2",
-    "Day": "THU"
+    "ME Name": "Indrajit Sarkar",
+    "Beat": "D-SATGACHI-2",
+    "Day": "SAT"
   },
   {
     "HUL Code": "HUL-219176D-P46749",
@@ -5703,8 +5703,8 @@
     "HUL Code": "HUL-219176D-P46809",
     "HUL Outlet Name": "papia khatik-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 707,
+    "BTD": 0,
     "ME Name": "Vivek Prasad",
     "Beat": "N-KESHAB SEN ST-2",
     "Day": "MON"
@@ -5713,11 +5713,11 @@
     "HUL Code": "HUL-219176D-P46825",
     "HUL Outlet Name": "Ratna St-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
-    "ME Name": "Shahina Yasmin",
-    "Beat": "U2NC-JESSORE ROAD",
-    "Day": "TUE"
+    "Shikhar": 548,
+    "BTD": 0,
+    "ME Name": "Avijit Paul",
+    "Beat": "D-JESSORE ROAD",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-219176D-P46845",
@@ -5783,7 +5783,7 @@
     "HUL Code": "HUL-219176D-P46935",
     "HUL Outlet Name": "Joy Guru Traders-D",
     "Status": "PP",
-    "Shikhar": 1431,
+    "Shikhar": 2290,
     "BTD": 0,
     "ME Name": "SAIKAT   Das",
     "Beat": "D-SK DEV ROAD-1",
@@ -6065,9 +6065,9 @@
     "Status": "Dormant",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-SATGACHI-2",
-    "Day": "THU"
+    "ME Name": "Indrajit Sarkar",
+    "Beat": "D-SATGACHI-2",
+    "Day": "SAT"
   },
   {
     "HUL Code": "HUL-219176D-P47345",
@@ -6393,8 +6393,8 @@
     "HUL Code": "HUL-217115D-P24650",
     "HUL Outlet Name": "MA DURGA BH-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1257,
+    "BTD": 0,
     "ME Name": "Utpal  Chakraborty",
     "Beat": "D-MANIKTALA-2",
     "Day": "MON"
@@ -6493,10 +6493,10 @@
     "HUL Code": "HUL-217115D-7241",
     "HUL Outlet Name": "N C STORES-D-D-D",
     "Status": "PP",
-    "Shikhar": 3733,
+    "Shikhar": 3399,
     "BTD": 0,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-COLLAGE STREET (SBJ)",
+    "ME Name": "PRIYANKA GHOSH",
+    "Beat": "F-COLLAGE STREET (COS)",
     "Day": "TUE"
   },
   {
@@ -6575,9 +6575,9 @@
     "Status": "PP",
     "Shikhar": 4825,
     "BTD": 0,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-COLLAGE STREET (SBJ)",
-    "Day": "TUE"
+    "ME Name": "Avijit Paul",
+    "Beat": "D-COLLEGE STREET(SBJ)",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-217115D-7268",
@@ -6585,9 +6585,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-KESHAB SEN ST-2",
-    "Day": "THU"
+    "ME Name": "Samir Kumar Samanta",
+    "Beat": "P-KESHAB SEN ST-2",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-217115D-7271",
@@ -6625,8 +6625,8 @@
     "Status": "PP",
     "Shikhar": 1098,
     "BTD": 0,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-KESHAB SEN ST-2",
+    "ME Name": "Vivek Prasad",
+    "Beat": "N-KESHAB SEN ST-2",
     "Day": "MON"
   },
   {
@@ -6663,8 +6663,8 @@
     "HUL Code": "HUL-217115D-7413",
     "HUL Outlet Name": "BCK M/S K.R.AGARWAL-D-D-D",
     "Status": "DETS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1868,
+    "BTD": 0,
     "ME Name": "JAYANTA  MANDAL",
     "Beat": "D-BECHU CHATTERJEE STREET",
     "Day": "MON"
@@ -6673,7 +6673,7 @@
     "HUL Code": "HUL-217115D-7416",
     "HUL Outlet Name": "MTN M/S NEW LOKENATH BHANDER-D-D-D",
     "Status": "DETS",
-    "Shikhar": 1495,
+    "Shikhar": 3384,
     "BTD": 0,
     "ME Name": "MANOJ KUMAR GUPTA",
     "Beat": "D-MANICKTALA",
@@ -6873,8 +6873,8 @@
     "HUL Code": "HUL-217115D-P11918",
     "HUL Outlet Name": "MAHAMAYA STORES - SP-D-D-D",
     "Status": "DETS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1041,
+    "BTD": 0,
     "ME Name": "Sumit Patra",
     "Beat": "D-SHYAMPUKUR",
     "Day": "MON"
@@ -7225,9 +7225,9 @@
     "Status": "PP",
     "Shikhar": 777,
     "BTD": 0,
-    "ME Name": "Munmun Shaw",
-    "Beat": "U2NC-BECHU CHATTERJEE ST",
-    "Day": "WED"
+    "ME Name": "JAYANTA  MANDAL",
+    "Beat": "D-BECHU CHATTERJEE STREET",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-217115D-P25140",
@@ -7273,7 +7273,7 @@
     "HUL Code": "HUL-217115D-P13495",
     "HUL Outlet Name": "MD. AKRAM - COLL SBJ-D-D-D",
     "Status": "PP",
-    "Shikhar": 4453,
+    "Shikhar": 4147,
     "BTD": 0,
     "ME Name": "Samir Kumar Samanta",
     "Beat": "P-COLLAGE STREET (SBJ)",
@@ -7313,7 +7313,7 @@
     "HUL Code": "HUL-217115D-P13540",
     "HUL Outlet Name": "SITARAM STORES - COLL SBJ-D-D-D",
     "Status": "DETS",
-    "Shikhar": 1931,
+    "Shikhar": 1907,
     "BTD": 0,
     "ME Name": "Avijit Paul",
     "Beat": "D-COLLEGE STREET(SBJ)",
@@ -7433,8 +7433,8 @@
     "HUL Code": "HUL-217093D-1289",
     "HUL Outlet Name": "GAYATRI BHANDER-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 3474,
+    "BTD": 0,
     "ME Name": "Mita Das Mondal",
     "Beat": "F-JESSORE ROAD",
     "Day": "MON"
@@ -7465,9 +7465,9 @@
     "Status": "PP",
     "Shikhar": 939,
     "BTD": 0,
-    "ME Name": "Avijit Kumar Nandy",
-    "Beat": "U2NC-KALINDI",
-    "Day": "FRI"
+    "ME Name": "Sumit Patra",
+    "Beat": "D-KALINDI",
+    "Day": "TUE"
   },
   {
     "HUL Code": "HUL-217093D-P0185",
@@ -7635,16 +7635,16 @@
     "Status": "PP",
     "Shikhar": 1245,
     "BTD": 0,
-    "ME Name": "TAPAS MUHURI",
-    "Beat": "U2NC-BAGUIATI ROAD",
-    "Day": "WED"
+    "ME Name": "Avijit Paul",
+    "Beat": "D-BAGUIHATI RD",
+    "Day": "TUE"
   },
   {
     "HUL Code": "HUL-217093D-P0898",
     "HUL Outlet Name": "SUPRIYA ST-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1708,
+    "BTD": 0,
     "ME Name": "Sumanta Chatterjee",
     "Beat": "F-BAGUIHATI RD+NUTS",
     "Day": "TUE"
@@ -7723,8 +7723,8 @@
     "HUL Code": "HUL-217115D-P17420",
     "HUL Outlet Name": "RADHA GOBINDA STORES - B.HATI RD-D-D-D",
     "Status": "DETS",
-    "Shikhar": 721,
-    "BTD": 0,
+    "Shikhar": 0,
+    "BTD": 500,
     "ME Name": "JAYANTA  MANDAL",
     "Beat": "D-SATGACHI",
     "Day": "SAT"
@@ -7733,8 +7733,8 @@
     "HUL Code": "HUL-217115D-P17471",
     "HUL Outlet Name": "VARIETY STORES - MANIKTALA-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 2037,
+    "BTD": 0,
     "ME Name": "Utpal  Chakraborty",
     "Beat": "D-MANIKTALA-2",
     "Day": "MON"
@@ -7755,9 +7755,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Avijit Kumar Nandy",
-    "Beat": "U2NC-S.K.DEB ROAD-1",
-    "Day": "MON"
+    "ME Name": "GITA HATI",
+    "Beat": "F-SK DEV ROAD-1",
+    "Day": "TUE"
   },
   {
     "HUL Code": "HUL-216252F-C964",
@@ -7775,9 +7775,9 @@
     "Status": "Dormant",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "PARIJIT NANDY",
-    "Beat": "U2NC-AMARPALLY",
-    "Day": "SAT"
+    "ME Name": "Indrajit Sarkar",
+    "Beat": "D-AMARPALLY+NUTS",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-217115D-P16119",
@@ -7825,8 +7825,8 @@
     "Status": "FOODS",
     "Shikhar": 1050,
     "BTD": 0,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-JESSORE RD-2",
+    "ME Name": "Kishalay Chakraborty",
+    "Beat": "F-JESSORE RD-2",
     "Day": "TUE"
   },
   {
@@ -7853,8 +7853,8 @@
     "HUL Code": "HUL-219176D-P25246",
     "HUL Outlet Name": "MOHON STORES-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 9067,
+    "BTD": 0,
     "ME Name": "Indrajit Sarkar",
     "Beat": "K-KALINDI+NUTS",
     "Day": "MON"
@@ -7903,7 +7903,7 @@
     "HUL Code": "HUL-217115D-P25775",
     "HUL Outlet Name": "SREE RAM BHANDER-D-D",
     "Status": "PP",
-    "Shikhar": 8502,
+    "Shikhar": 8449,
     "BTD": 0,
     "ME Name": "SAMAR ADHIKARI",
     "Beat": "K-BAGMARI-2+NUTS",
@@ -7933,7 +7933,7 @@
     "HUL Code": "HUL-219176D-P25732",
     "HUL Outlet Name": "BINOD STORES-D",
     "Status": "PP",
-    "Shikhar": 5145,
+    "Shikhar": 7985,
     "BTD": 0,
     "ME Name": "SAMAR ADHIKARI",
     "Beat": "K-MURARIPUKUR-3+NUTS",
@@ -8005,8 +8005,8 @@
     "Status": "PP",
     "Shikhar": 2525,
     "BTD": 0,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-KESHAB SEN ST-2",
+    "ME Name": "Vivek Prasad",
+    "Beat": "N-KESHAB SEN ST-2",
     "Day": "MON"
   },
   {
@@ -8055,9 +8055,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-VIVEKANDA ROAD-2",
-    "Day": "WED"
+    "ME Name": "MANOJ KUMAR GUPTA",
+    "Beat": "D-VIVEKANDA ROAD-2",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-219176D-P26312",
@@ -8065,9 +8065,9 @@
     "Status": "PP",
     "Shikhar": 1149,
     "BTD": 0,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-VIVEKANDA ROAD-2",
-    "Day": "WED"
+    "ME Name": "MANOJ KUMAR GUPTA",
+    "Beat": "D-VIVEKANDA ROAD-2",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-219176D-P26327",
@@ -8075,9 +8075,9 @@
     "Status": "PP",
     "Shikhar": 1111,
     "BTD": 0,
-    "ME Name": "Somnath Dhar",
-    "Beat": "U2NC-TERRITY MARKET",
-    "Day": "TUE"
+    "ME Name": "MANOJ KUMAR GUPTA",
+    "Beat": "D-TERRITY MARKET",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-219176D-P26367",
@@ -8093,7 +8093,7 @@
     "HUL Code": "HUL-219176D-P26372",
     "HUL Outlet Name": "MAA TARA TRADERS-D",
     "Status": "DETS",
-    "Shikhar": 1053,
+    "Shikhar": 2712,
     "BTD": 0,
     "ME Name": "MANOJ KUMAR GUPTA",
     "Beat": "D-MANICKTALA",
@@ -8145,9 +8145,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "PARIJIT NANDY",
-    "Beat": "U2NC-MURARI PUKUR",
-    "Day": "WED"
+    "ME Name": "Sumit Patra",
+    "Beat": "D-MURARIPUKUR",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-219176D-P26422",
@@ -8323,8 +8323,8 @@
     "HUL Code": "HUL-219176D-P26936",
     "HUL Outlet Name": "ASHA VARIETY-D",
     "Status": "DETS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 2239,
+    "BTD": 0,
     "ME Name": "Avijit Paul",
     "Beat": "D-JESSORE ROAD",
     "Day": "MON"
@@ -8343,10 +8343,10 @@
     "HUL Code": "HUL-219176D-P26976",
     "HUL Outlet Name": "DIPAK VARIETY STORES-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-JESSORE RD-2",
+    "Shikhar": 1089,
+    "BTD": 0,
+    "ME Name": "Kishalay Chakraborty",
+    "Beat": "F-JESSORE RD-2",
     "Day": "TUE"
   },
   {
@@ -8375,9 +8375,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-KAZIPARA",
-    "Day": "SAT"
+    "ME Name": "Avijit Paul",
+    "Beat": "D-KAZIPARA",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-219176D-P27156",
@@ -8393,7 +8393,7 @@
     "HUL Code": "HUL-219176D-P27181",
     "HUL Outlet Name": "SUPRAVAT-D",
     "Status": "PP",
-    "Shikhar": 2175,
+    "Shikhar": 3791,
     "BTD": 0,
     "ME Name": "Avijit Kumar Nandy",
     "Beat": "U2NC-KALINDI",
@@ -8485,9 +8485,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Indrajit Sarkar",
-    "Beat": "D-SATGACHI-2",
-    "Day": "SAT"
+    "ME Name": "Samir Kumar Samanta",
+    "Beat": "P-SATGACHI-2",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-219176D-P27521",
@@ -8673,8 +8673,8 @@
     "HUL Code": "HUL-219176D-P28807",
     "HUL Outlet Name": "PRADIP STORES-D",
     "Status": "DETS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1067,
+    "BTD": 0,
     "ME Name": "Avijit Paul",
     "Beat": "D-BAGUIHATI RD",
     "Day": "TUE"
@@ -8985,9 +8985,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-VIVEKANDA ROAD-2",
-    "Day": "WED"
+    "ME Name": "MANOJ KUMAR GUPTA",
+    "Beat": "D-VIVEKANDA ROAD-2",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-217115D-P19696",
@@ -9215,9 +9215,9 @@
     "Status": "PP",
     "Shikhar": 613,
     "BTD": 0,
-    "ME Name": "PALLABCHOWDHURY",
-    "Beat": "U2NC-SHYAMPUKUR",
-    "Day": "FRI"
+    "ME Name": "GITA HATI",
+    "Beat": "F-SHYAMPUKUR+NUTS",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-219176D-P32732",
@@ -9435,9 +9435,9 @@
     "Status": "PP",
     "Shikhar": 638,
     "BTD": 0,
-    "ME Name": "PALLABCHOWDHURY",
-    "Beat": "P-KESHAB SEN STREET",
-    "Day": "MON"
+    "ME Name": "Avijit Paul",
+    "Beat": "D-KESHAB SEN STREET",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-20B317D-P42963",
@@ -9575,8 +9575,8 @@
     "Status": "PP",
     "Shikhar": -526,
     "BTD": 1026,
-    "ME Name": "JAYANTA  MANDAL",
-    "Beat": "D-VIVEKANANDA ROAD",
+    "ME Name": "Vivek Prasad",
+    "Beat": "F-VIVEKANANDA ROAD+NUTS",
     "Day": "THU"
   },
   {
@@ -9635,8 +9635,8 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Sumit Patra",
-    "Beat": "D-AMARPALLY-2",
+    "ME Name": "Kishalay Chakraborty",
+    "Beat": "F-AMARPALLY-2+NUTS",
     "Day": "WED"
   },
   {
@@ -9845,9 +9845,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-KESHAB SEN ST-2+NUTS",
-    "Day": "THU"
+    "ME Name": "Shahina Yasmin",
+    "Beat": "U2NC-KESHAB SEN STREET",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-20B317D-P43741",
@@ -10415,9 +10415,9 @@
     "Status": "PP",
     "Shikhar": 272,
     "BTD": 228,
-    "ME Name": "Avijit Kumar Nandy",
-    "Beat": "U2NC-S.K.DEB ROAD-1",
-    "Day": "MON"
+    "ME Name": "SAIKAT   Das",
+    "Beat": "D-SK DEV ROAD-1",
+    "Day": "TUE"
   },
   {
     "HUL Code": "HUL-217086D-1593",
@@ -10505,9 +10505,9 @@
     "Status": "PP",
     "Shikhar": 1080,
     "BTD": 0,
-    "ME Name": "Munmun Shaw",
-    "Beat": "U2NC-BIDHAN SARANI -1",
-    "Day": "SAT"
+    "ME Name": "Mita Das Mondal",
+    "Beat": "F-BIDHANSARANI -1",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-217086D-1689",
@@ -10605,9 +10605,9 @@
     "Status": "PP",
     "Shikhar": 6802,
     "BTD": 0,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-CHALKBAZAR+NUTS",
-    "Day": "WED"
+    "ME Name": "Samir Kumar Samanta",
+    "Beat": "P-CHALKBAZAR",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-217086D-2533",
@@ -10653,11 +10653,11 @@
     "HUL Code": "HUL-217086D-2604",
     "HUL Outlet Name": "HBR M/S R.P SHAW-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
-    "ME Name": "PARIJIT NANDY",
-    "Beat": "U2NC-BIDHAN SARANI -2",
-    "Day": "MON"
+    "Shikhar": 627,
+    "BTD": 0,
+    "ME Name": "JAYANTA  MANDAL",
+    "Beat": "D-BIDHANSARANI-3",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-217086D-2606",
@@ -10665,9 +10665,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Subrata Dey",
-    "Beat": "P-BIDHANSARANI-3",
-    "Day": "SAT"
+    "ME Name": "Mita Das Mondal",
+    "Beat": "F-BIDHANSARANI-3",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-217086D-2607",
@@ -10733,8 +10733,8 @@
     "HUL Code": "HUL-217086D-2701",
     "HUL Outlet Name": "SHREE BHANDER-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 3043,
+    "BTD": 0,
     "ME Name": "Avijit Kumar Nandy",
     "Beat": "U2NC-S.K.DEB ROAD-1",
     "Day": "MON"
@@ -10753,8 +10753,8 @@
     "HUL Code": "HUL-217086D-2714",
     "HUL Outlet Name": "SPA M/S ANANDA BHANDER-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1201,
+    "BTD": 0,
     "ME Name": "PALLABCHOWDHURY",
     "Beat": "U2NC-SHYAMPUKUR",
     "Day": "FRI"
@@ -10805,9 +10805,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-CHALKBAZAR+NUTS",
-    "Day": "WED"
+    "ME Name": "Samir Kumar Samanta",
+    "Beat": "P-CHALKBAZAR",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-217086D-2759",
@@ -10843,7 +10843,7 @@
     "HUL Code": "HUL-217086D-2782",
     "HUL Outlet Name": "SPS M/S SHYAM STORES-D-D-D-D",
     "Status": "DETS",
-    "Shikhar": 1135,
+    "Shikhar": 2701,
     "BTD": 0,
     "ME Name": "Sumit Patra",
     "Beat": "D-SHYAMPUKUR",
@@ -10893,7 +10893,7 @@
     "HUL Code": "HUL-217086D-2840",
     "HUL Outlet Name": "DDD M/S DEEPA STORES-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 1454,
+    "Shikhar": 637,
     "BTD": 0,
     "ME Name": "Mita Das Mondal",
     "Beat": "F-DAKHINDARI ROAD+NUTS",
@@ -10983,8 +10983,8 @@
     "HUL Code": "HUL-217086D-323",
     "HUL Outlet Name": "SPK M/S KHALER SHATHI-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 2811,
+    "BTD": 0,
     "ME Name": "GITA HATI",
     "Beat": "F-SHYAMPUKUR",
     "Day": "MON"
@@ -10993,7 +10993,7 @@
     "HUL Code": "HUL-217086D-325",
     "HUL Outlet Name": "SPG M/S GUPTA STORES-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 632,
+    "Shikhar": 1628,
     "BTD": 0,
     "ME Name": "GITA HATI",
     "Beat": "F-SHYAMPUKUR",
@@ -11073,7 +11073,7 @@
     "HUL Code": "HUL-217086D-762",
     "HUL Outlet Name": "SPP M/S PRADIP PRAMANIK-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 841,
+    "Shikhar": 1599,
     "BTD": 0,
     "ME Name": "PALLABCHOWDHURY",
     "Beat": "U2NC-SHYAMPUKUR",
@@ -11133,11 +11133,11 @@
     "HUL Code": "HUL-217085D-P884",
     "HUL Outlet Name": "Sree Sree Satyanarayan Bh..-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 1285,
+    "Shikhar": 2601,
     "BTD": 0,
-    "ME Name": "Somnath Dhar",
-    "Beat": "U2NC-TERRITY MARKET",
-    "Day": "TUE"
+    "ME Name": "MANOJ KUMAR GUPTA",
+    "Beat": "D-TERRITY MARKET",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-217085D-P886",
@@ -11343,8 +11343,8 @@
     "HUL Code": "HUL-217085D-P1093",
     "HUL Outlet Name": "Dipak Kr Ghosh-D-D-D-D-D",
     "Status": "DETS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 2952,
+    "BTD": 0,
     "ME Name": "MANOJ KUMAR GUPTA",
     "Beat": "D-BAGMARI-1",
     "Day": "MON"
@@ -11453,8 +11453,8 @@
     "HUL Code": "HUL-217085D-P1269",
     "HUL Outlet Name": "Tapas Nandy-D-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 8105,
+    "BTD": 0,
     "ME Name": "Tanmoy Das",
     "Beat": "U2NC-BAGMARI",
     "Day": "SAT"
@@ -11473,8 +11473,8 @@
     "HUL Code": "HUL-217085D-P1340",
     "HUL Outlet Name": "DHUMPAN-D-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1118,
+    "BTD": 0,
     "ME Name": "Munmun Shaw",
     "Beat": "U2NC-KAILASH BOSE STREET",
     "Day": "TUE"
@@ -11543,11 +11543,11 @@
     "HUL Code": "HUL-217085D-P711",
     "HUL Outlet Name": "ANNAPURNA BHANDER-D-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
-    "ME Name": "Tanmoy Das",
-    "Beat": "U2NC-BAGMARI",
-    "Day": "SAT"
+    "Shikhar": 523,
+    "BTD": 0,
+    "ME Name": "Sumanta Chatterjee",
+    "Beat": "F-BAGMARI",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-217085D-P713",
@@ -11663,8 +11663,8 @@
     "HUL Code": "HUL-217085D-P869",
     "HUL Outlet Name": "PRAMOD CHANDRA & SHARAD CHANDRA CHANDRA-D-D-D-D-D",
     "Status": "DETS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1053,
+    "BTD": 0,
     "ME Name": "MANOJ KUMAR GUPTA",
     "Beat": "D-MANICKTALA",
     "Day": "TUE"
@@ -11755,9 +11755,9 @@
     "Status": "PP",
     "Shikhar": 2317,
     "BTD": 0,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-VIVEKANDA ROAD-2",
-    "Day": "WED"
+    "ME Name": "Kishalay Chakraborty",
+    "Beat": "F-VIVEKANDA ROAD-2+NUTS",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-217085D-P995",
@@ -12283,8 +12283,8 @@
     "HUL Code": "HUL-20B317P44591",
     "HUL Outlet Name": "Gupta Store",
     "Status": "DETS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 577,
+    "BTD": 0,
     "ME Name": "SAIKAT   Das",
     "Beat": "D-SK DEV ROAD-1",
     "Day": "TUE"
@@ -12293,17 +12293,17 @@
     "HUL Code": "HUL-217115D-P18545",
     "HUL Outlet Name": "SUJOY SAT - KS-D-D-D",
     "Status": "PP",
-    "Shikhar": 9903,
+    "Shikhar": 9776,
     "BTD": 0,
-    "ME Name": "Utpal  Chakraborty",
-    "Beat": "D-KESHAB SEN ST-2",
-    "Day": "THU"
+    "ME Name": "Samir Kumar Samanta",
+    "Beat": "P-KESHAB SEN ST-2",
+    "Day": "MON"
   },
   {
     "HUL Code": "HUL-217575P222",
     "HUL Outlet Name": "GOURAB VARIETY STORES-D-D",
     "Status": "PP",
-    "Shikhar": 3749,
+    "Shikhar": 5776,
     "BTD": 0,
     "ME Name": "Indrajit Sarkar",
     "Beat": "K-KALINDI+NUTS",
@@ -12393,8 +12393,8 @@
     "HUL Code": "HUL-217093D-P0323",
     "HUL Outlet Name": "PAPPU STORES - JR-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 4801,
+    "BTD": 0,
     "ME Name": "Mita Das Mondal",
     "Beat": "F-JESSORE ROAD",
     "Day": "MON"
@@ -12413,7 +12413,7 @@
     "HUL Code": "HUL-219176D-P41384",
     "HUL Outlet Name": "Kalpataru Stores-D",
     "Status": "PP",
-    "Shikhar": 15354,
+    "Shikhar": 16632,
     "BTD": 0,
     "ME Name": "Tanmoy Das",
     "Beat": "U2NC-BAGMARI",
@@ -12455,9 +12455,9 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Indrajit Sarkar",
-    "Beat": "D-AMARPALLY+NUTS",
-    "Day": "WED"
+    "ME Name": "PARIJIT NANDY",
+    "Beat": "U2NC-AMARPALLY",
+    "Day": "SAT"
   },
   {
     "HUL Code": "HUL-217115D-6515",
@@ -12495,15 +12495,15 @@
     "Status": "PP",
     "Shikhar": 9058,
     "BTD": 0,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-KAZIPARA",
-    "Day": "SAT"
+    "ME Name": "PRIYANKA GHOSH",
+    "Beat": "F-KAZIPARA+NUTS",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-217115D-P12008",
     "HUL Outlet Name": "NEW GUPTA BHANDER - MANIKTALA-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 19579,
+    "Shikhar": 26738,
     "BTD": 0,
     "ME Name": "PRASANTA DAS",
     "Beat": "F-MANICKTALA",
@@ -12543,8 +12543,8 @@
     "HUL Code": "HUL-217093D-P0193",
     "HUL Outlet Name": "MIRA GIFT - JR-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 6664,
+    "BTD": 0,
     "ME Name": "Mita Das Mondal",
     "Beat": "F-JESSORE ROAD+NUTS",
     "Day": "MON"
@@ -12563,8 +12563,8 @@
     "HUL Code": "HUL-217093D-P0203",
     "HUL Outlet Name": "ADI ANNAPURNA STORES - KL-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 1082,
+    "BTD": 0,
     "ME Name": "DEBASISH  chakraborty",
     "Beat": "F-KALINDI",
     "Day": "TUE"
@@ -12603,8 +12603,8 @@
     "HUL Code": "HUL-217093D-P0899",
     "HUL Outlet Name": "BHAI BHAI ST-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 6647,
+    "BTD": 0,
     "ME Name": "TAPAS MUHURI",
     "Beat": "U2NC-BAGUIATI ROAD",
     "Day": "WED"
@@ -12615,9 +12615,9 @@
     "Status": "PP",
     "Shikhar": 4480,
     "BTD": 0,
-    "ME Name": "Samir Kumar Samanta",
-    "Beat": "P-COLLAGE STREET (SBJ)",
-    "Day": "TUE"
+    "ME Name": "Sajal  Chakraborty",
+    "Beat": "F-COLLEGE STREET (SBJ)",
+    "Day": "FRI"
   },
   {
     "HUL Code": "HUL-219176D-P26522",
@@ -12633,8 +12633,8 @@
     "HUL Code": "HUL-219176D-P28652",
     "HUL Outlet Name": "MAA MANASA BAHNDAR-D",
     "Status": "DETS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 661,
+    "BTD": 0,
     "ME Name": "Avijit Paul",
     "Beat": "D-BAGUIHATI RD",
     "Day": "TUE"
@@ -12683,7 +12683,7 @@
     "HUL Code": "HUL-217086D-1595",
     "HUL Outlet Name": "SKR M/S RAMAVATAR SHARMA-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 1522,
+    "Shikhar": 5571,
     "BTD": 0,
     "ME Name": "Avijit Kumar Nandy",
     "Beat": "U2NC-S.K.DEB ROAD-1",
@@ -12715,15 +12715,15 @@
     "Status": "PP",
     "Shikhar": 0,
     "BTD": 500,
-    "ME Name": "Shahina Yasmin",
-    "Beat": "U2NC-BELGACHIA",
-    "Day": "FRI"
+    "ME Name": "Sumanta Chatterjee",
+    "Beat": "F-BELGACHIA",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-217086D-1668",
     "HUL Outlet Name": "BSC CHARU CHANDRA STORES-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 2098,
+    "Shikhar": 3649,
     "BTD": 0,
     "ME Name": "Munmun Shaw",
     "Beat": "U2NC-BIDHAN SARANI -1",
@@ -12753,7 +12753,7 @@
     "HUL Code": "HUL-217086D-207",
     "HUL Outlet Name": "SPA M/S AMAR NATH HALDER-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 3083,
+    "Shikhar": 6339,
     "BTD": 0,
     "ME Name": "PALLABCHOWDHURY",
     "Beat": "U2NC-SHYAMPUKUR",
@@ -12775,9 +12775,9 @@
     "Status": "PP",
     "Shikhar": 1825,
     "BTD": 0,
-    "ME Name": "Shahina Yasmin",
-    "Beat": "U2NC-BELGACHIA",
-    "Day": "FRI"
+    "ME Name": "SAIKAT   Das",
+    "Beat": "D-BELGACHIA",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-217086D-P2621",
@@ -12813,7 +12813,7 @@
     "HUL Code": "WB70000560726",
     "HUL Outlet Name": "Nandlal Shaw (SVS)-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 3664,
+    "Shikhar": 29602,
     "BTD": 0,
     "ME Name": "Munmun Shaw",
     "Beat": "U2NC-SOVABAZAR (SVS)",
@@ -12823,7 +12823,7 @@
     "HUL Code": "WB70000560730",
     "HUL Outlet Name": "Munna Shaw & Sanjay Shaw (SVS)-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 6839,
+    "Shikhar": 9939,
     "BTD": 0,
     "ME Name": "Munmun Shaw",
     "Beat": "U2NC-SOVABAZAR (SVS)",
@@ -12833,8 +12833,8 @@
     "HUL Code": "WB70000660741",
     "HUL Outlet Name": "Shree Ganesh Bhandar (H)(SVS)-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 15995,
+    "BTD": 0,
     "ME Name": "Munmun Shaw",
     "Beat": "U2NC-SOVABAZAR (SVS)",
     "Day": "THU"
@@ -12863,8 +12863,8 @@
     "HUL Code": "HUL-217085D-P868",
     "HUL Outlet Name": "C K GHOSH-D-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 4079,
+    "BTD": 0,
     "ME Name": "PRASANTA DAS",
     "Beat": "F-MANICKTALA",
     "Day": "TUE"
@@ -12913,10 +12913,10 @@
     "HUL Code": "WB70001260739",
     "HUL Outlet Name": "S DUTTA(Svs)-D-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 11320,
+    "Shikhar": 10878,
     "BTD": 0,
-    "ME Name": "TAPAS MUHURI",
-    "Beat": "U2NC-COLLEGE STREET(COS)",
+    "ME Name": "Sajal  Chakraborty",
+    "Beat": "F-COLLEGE STREET (SBJ)",
     "Day": "FRI"
   },
   {
@@ -12933,8 +12933,8 @@
     "HUL Code": "HUL-217093D-P0191",
     "HUL Outlet Name": "ASUTOSH STORES - JR-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 4277,
+    "BTD": 0,
     "ME Name": "Shahina Yasmin",
     "Beat": "U2NC-JESSORE ROAD",
     "Day": "TUE"
@@ -12993,7 +12993,7 @@
     "HUL Code": "HUL-217115D-P12293",
     "HUL Outlet Name": "DALI STORES - AMARPALLY-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 7722,
+    "Shikhar": 7632,
     "BTD": 0,
     "ME Name": "Kishalay Chakraborty",
     "Beat": "F-AMARPALLY-2",
@@ -13073,8 +13073,8 @@
     "HUL Code": "HUL-217085D-P878",
     "HUL Outlet Name": "ANNAPURNA BHANDAR (M)-D-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 9569,
+    "BTD": 0,
     "ME Name": "Avijit Kumar Nandy",
     "Beat": "U2NC-MANIKTALA",
     "Day": "THU"
@@ -13083,7 +13083,7 @@
     "HUL Code": "HUL-217086D-1603",
     "HUL Outlet Name": "SKM M/S MEDI AID PLUS-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 22124,
+    "Shikhar": 21260,
     "BTD": 0,
     "ME Name": "TAPAS MUHURI",
     "Beat": "U2NC-SK DEB ROAD-2",
@@ -13113,8 +13113,8 @@
     "HUL Code": "HUL-217086D-1694",
     "HUL Outlet Name": "SBA M/S ADI GHOSH BROTHERS-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 5363,
+    "BTD": 0,
     "ME Name": "TAPAS MUHURI",
     "Beat": "U2NC-SHYAMBAZAR",
     "Day": "MON"
@@ -13123,11 +13123,11 @@
     "HUL Code": "HUL-217086D-2352",
     "HUL Outlet Name": "ABA M/S ANIL STORES-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 3871,
+    "Shikhar": 3751,
     "BTD": 0,
-    "ME Name": "Shahina Yasmin",
-    "Beat": "U2NC-BELGACHIA",
-    "Day": "FRI"
+    "ME Name": "Sumanta Chatterjee",
+    "Beat": "F-BELGACHIA",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-217086D-2856",
@@ -13213,8 +13213,8 @@
     "HUL Code": "HUL-217085D-P707",
     "HUL Outlet Name": "G MONDAL-D-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 8444,
+    "BTD": 0,
     "ME Name": "Tanmoy Das",
     "Beat": "U2NC-BAGMARI",
     "Day": "SAT"
@@ -13223,7 +13223,7 @@
     "HUL Code": "HUL-217085D-P871",
     "HUL Outlet Name": "DAWN VARIEY STORES-D-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 7363,
+    "Shikhar": 9850,
     "BTD": 0,
     "ME Name": "PRASANTA DAS",
     "Beat": "F-MANICKTALA",
@@ -13313,7 +13313,7 @@
     "HUL Code": "HUL-20B317D-P43301",
     "HUL Outlet Name": "Rasafa Mart",
     "Status": "PP",
-    "Shikhar": 21897,
+    "Shikhar": 21230,
     "BTD": 0,
     "ME Name": "Shahina Yasmin",
     "Beat": "U2NC-KESHAB SEN STREET",
@@ -13533,8 +13533,8 @@
     "HUL Code": "WB70005502262",
     "HUL Outlet Name": "GUPTA STORES-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 6016,
+    "BTD": 0,
     "ME Name": "DEBASISH  chakraborty",
     "Beat": "F-NAGER BAZAR (W/S)",
     "Day": "WED"
@@ -13543,8 +13543,8 @@
     "HUL Code": "WB70000402211",
     "HUL Outlet Name": "B. SAMANTA & SON-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": -2148,
+    "BTD": 2648,
     "ME Name": "JOY  CHATTERJEE",
     "Beat": "U2NC-SHYAMBAZAR(W/S)",
     "Day": "THU"
@@ -13603,8 +13603,8 @@
     "HUL Code": "HUL-217115D-141",
     "HUL Outlet Name": "SREE GOBINDA BHANDER-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 9604,
+    "BTD": 0,
     "ME Name": "JOY  CHATTERJEE",
     "Beat": "U2NC-SHYAMBAZAR(W/S)",
     "Day": "THU"
@@ -13653,8 +13653,8 @@
     "HUL Code": "WB70007302251",
     "HUL Outlet Name": "NEW BHARAT STORES-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 21645,
+    "BTD": 0,
     "ME Name": "JOY  CHATTERJEE",
     "Beat": "U2NC-TERETTI (W/S)",
     "Day": "SAT"
@@ -13763,8 +13763,8 @@
     "HUL Code": "WB70000404714",
     "HUL Outlet Name": "RINA STORES-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": -5800,
+    "BTD": 6300,
     "ME Name": "JOY  CHATTERJEE",
     "Beat": "U2NC-SHYAMBAZAR(W/S)",
     "Day": "THU"
@@ -13793,7 +13793,7 @@
     "HUL Code": "WB70000702297",
     "HUL Outlet Name": "JAWED BROTHERS-D-D-D",
     "Status": "PP",
-    "Shikhar": 25778,
+    "Shikhar": 58807,
     "BTD": 0,
     "ME Name": "JOY  CHATTERJEE",
     "Beat": "U2NC-TERETTI (W/S)",
@@ -13813,8 +13813,8 @@
     "HUL Code": "HUL-217115D-63",
     "HUL Outlet Name": "KALIMATA  STORES-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 7624,
+    "BTD": 0,
     "ME Name": "TAPAS MUHURI",
     "Beat": "P-NAGERBAZAR",
     "Day": "TUE"
@@ -13923,7 +13923,7 @@
     "HUL Code": "HUL-217115D-P13055",
     "HUL Outlet Name": "BACHHU LAL MISHRA - SB-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 1759,
+    "Shikhar": 14614,
     "BTD": 0,
     "ME Name": "DEBASISH  chakraborty",
     "Beat": "F-SHYAMBAZAR+NUTS",
@@ -13993,8 +13993,8 @@
     "HUL Code": "HUL-217432D-P810",
     "HUL Outlet Name": "PRATHA INTERNATIONAL-D-D-D",
     "Status": "PP",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": -3197,
+    "BTD": 3697,
     "ME Name": "JOY  CHATTERJEE",
     "Beat": "U2NC-TERETTI (W/S)",
     "Day": "SAT"
@@ -14203,11 +14203,11 @@
     "HUL Code": "HUL-217086D-1183",
     "HUL Outlet Name": "ABS M/S S.K.AGARWAL-D-D-D-D",
     "Status": "PP",
-    "Shikhar": 11878,
+    "Shikhar": 10900,
     "BTD": 0,
-    "ME Name": "Shahina Yasmin",
-    "Beat": "U2NC-BELGACHIA",
-    "Day": "FRI"
+    "ME Name": "Sumanta Chatterjee",
+    "Beat": "F-BELGACHIA+NUTS",
+    "Day": "WED"
   },
   {
     "HUL Code": "HUL-217086D-2049",
@@ -14243,8 +14243,8 @@
     "HUL Code": "WB70000560727",
     "HUL Outlet Name": "JAISWAL FOOD STORE (SVS)-D-D-D-D",
     "Status": "FOODS",
-    "Shikhar": 0,
-    "BTD": 500,
+    "Shikhar": 80828,
+    "BTD": 0,
     "ME Name": "PRIYANKA GHOSH",
     "Beat": "F-SOVABAZAR (SVS)",
     "Day": "MON"
@@ -14253,8 +14253,8 @@
     "HUL Code": "WB70005460753",
     "HUL Outlet Name": "NEW BANSHIBADAN STORES (SVS)-D-D-D-D-D-P",
     "Status": "PP",
-    "Shikhar": -3935,
-    "BTD": 4435,
+    "Shikhar": 8339,
+    "BTD": 0,
     "ME Name": "Tanmoy Das",
     "Beat": "U2NC-BAGMARI",
     "Day": "SAT"
@@ -14275,9 +14275,9 @@
     "Status": "PP",
     "Shikhar": 1234,
     "BTD": 0,
-    "ME Name": "Indrajit Sarkar",
-    "Beat": "D-AMARPALLY+NUTS",
-    "Day": "WED"
+    "ME Name": "PARIJIT NANDY",
+    "Beat": "U2NC-AMARPALLY",
+    "Day": "SAT"
   },
   {
     "HUL Code": "HUL-20B317P44458",
