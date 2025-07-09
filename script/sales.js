@@ -33,7 +33,7 @@ function populateTable(data) {
         <td>-</td>
         <td>-</td>
         <td>-</td>
-        <td>-</td>
+        <td>FOODS</td>
         <td>${totals.LYRR}</td>
         <td>${totals.JQRR}</td>
         <td>${totals.L3M}</td>
