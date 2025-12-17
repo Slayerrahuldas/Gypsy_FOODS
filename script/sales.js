@@ -15,8 +15,8 @@ function populateTable(data) {
     const tableBody = document.getElementById("table-body");
     tableBody.innerHTML = "";
 
-    const totalColumns = ["LYRR", "JQRR", "L3M", "MTD"];
-    let totals = { LYRR: 0, JQRR: 0, L3M: 0, MTD: 0 };
+    const totalColumns = ["LYRR", "DQRR", "L3M", "MTD"];
+    let totals = { LYRR: 0, DQRR: 0, L3M: 0, MTD: 0 };
 
     data.forEach(item => {
         totalColumns.forEach(key => {
@@ -35,7 +35,7 @@ function populateTable(data) {
         <td>-</td>
         <td>FOODS</td>
         <td>${totals.LYRR}</td>
-        <td>${totals.JQRR}</td>
+        <td>${totals.DQRR}</td>
         <td>${totals.L3M}</td>
         <td>${totals.MTD}</td>
     `;
@@ -51,7 +51,7 @@ function populateTable(data) {
             <td>${item["Beat"] || "-"}</td>
             <td>${item["PLG"] || "-"}</td>
             <td>${item["LYRR"] || 0}</td>
-            <td>${item["JQRR"] || 0}</td>
+            <td>${item["DQRR"] || 0}</td>
             <td>${item["L3M"] || 0}</td>
             <td>${item["MTD"] || 0}</td>
         `;
@@ -130,3 +130,4 @@ function initialize() {
 }
 
 fetchData();
+
