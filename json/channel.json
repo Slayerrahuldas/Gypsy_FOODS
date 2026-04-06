@@ -1,5 +1,25 @@
 [
   {
+    "HUL Code": "HUL-217086D-2352",
+    "HUL Outlet Name": "ABA M/S ANIL STORES-D-D-D-D",
+    "TGT": 8685,
+    "ACH": 3587,
+    "BTD": 5098,
+    "ME Name": "Sajal  Chakraborty",
+    "Beat": "OFM-F-Belgachia - Baguihati",
+    "Day": "TU"
+  },
+  {
+    "HUL Code": "HUL-217086D-1617",
+    "HUL Outlet Name": "ABG G. D. TRADING-D-D-D-D",
+    "TGT": 15554,
+    "ACH": 5050,
+    "BTD": 10504,
+    "ME Name": "Sajal  Chakraborty",
+    "Beat": "OFM-F-Belgachia - Baguihati",
+    "Day": "TU"
+  },
+  {
     "HUL Code": "HUL-20B317D-P43279",
     "HUL Outlet Name": "Bagmari Mart-D",
     "TGT": 9718,
@@ -23,8 +43,8 @@
     "HUL Code": "HUL-217086D-1669",
     "HUL Outlet Name": "BSJ JAGANNATH  PANDAY-D-D-D-D",
     "TGT": 17923,
-    "ACH": 10155,
-    "BTD": 7768,
+    "ACH": 9539,
+    "BTD": 8385,
     "ME Name": "Sajal  Chakraborty",
     "Beat": "OFM-F-Bidhan Sarani-collage st",
     "Day": "THU"
@@ -38,76 +58,6 @@
     "ME Name": "Sajal  Chakraborty",
     "Beat": "OFM-F-Bidhan Sarani-collage st",
     "Day": "THU"
-  },
-  {
-    "HUL Code": "WB70000660751",
-    "HUL Outlet Name": "LAXMI BHANDAR (SVS)K B-D-D-D-D-D",
-    "TGT": 17538,
-    "ACH": 7457,
-    "BTD": 10081,
-    "ME Name": "Sajal  Chakraborty",
-    "Beat": "OFM-F-Bidhan Sarani-collage st",
-    "Day": "THU"
-  },
-  {
-    "HUL Code": "HUL-217115D-P12989",
-    "HUL Outlet Name": "MOUSUMI STORES - CP-D-D-D",
-    "TGT": 16159,
-    "ACH": 2571,
-    "BTD": 13587,
-    "ME Name": "Sajal  Chakraborty",
-    "Beat": "OFM-F-Bidhan Sarani-collage st",
-    "Day": "THU"
-  },
-  {
-    "HUL Code": "HUL-217085D-P1315",
-    "HUL Outlet Name": "NAVABIHAR BHANDAR-D-D-D-D-D",
-    "TGT": 9706,
-    "ACH": 4414,
-    "BTD": 5292,
-    "ME Name": "Sajal  Chakraborty",
-    "Beat": "OFM-F-Bidhan Sarani-collage st",
-    "Day": "THU"
-  },
-  {
-    "HUL Code": "HUL-20B317D-P43301",
-    "HUL Outlet Name": "Rasafa Mart",
-    "TGT": 31076,
-    "ACH": 21395,
-    "BTD": 9681,
-    "ME Name": "Sajal  Chakraborty",
-    "Beat": "OFM-F-Bidhan Sarani-collage st",
-    "Day": "THU"
-  },
-  {
-    "HUL Code": "WB70001260739",
-    "HUL Outlet Name": "S DUTTA(Svs)-D-D-D-D-D",
-    "TGT": 15073,
-    "ACH": 6417,
-    "BTD": 8656,
-    "ME Name": "Sajal  Chakraborty",
-    "Beat": "OFM-F-Bidhan Sarani-collage st",
-    "Day": "THU"
-  },
-  {
-    "HUL Code": "HUL-217086D-2352",
-    "HUL Outlet Name": "ABA M/S ANIL STORES-D-D-D-D",
-    "TGT": 8685,
-    "ACH": 3587,
-    "BTD": 5098,
-    "ME Name": "Sajal  Chakraborty",
-    "Beat": "OFM-F-Belgachia - Baguihati",
-    "Day": "TU"
-  },
-  {
-    "HUL Code": "HUL-217086D-1617",
-    "HUL Outlet Name": "ABG G. D. TRADING-D-D-D-D",
-    "TGT": 15554,
-    "ACH": 5151,
-    "BTD": 10404,
-    "ME Name": "Sajal  Chakraborty",
-    "Beat": "OFM-F-Belgachia - Baguihati",
-    "Day": "TU"
   },
   {
     "HUL Code": "HUL-217115D-P18266",
@@ -130,24 +80,64 @@
     "Day": "TU"
   },
   {
+    "HUL Code": "WB70000660751",
+    "HUL Outlet Name": "LAXMI BHANDAR (SVS)K B-D-D-D-D-D",
+    "TGT": 17538,
+    "ACH": 7457,
+    "BTD": 10081,
+    "ME Name": "Sajal  Chakraborty",
+    "Beat": "OFM-F-Bidhan Sarani-collage st",
+    "Day": "THU"
+  },
+  {
+    "HUL Code": "HUL-217115D-P12989",
+    "HUL Outlet Name": "MOUSUMI STORES - CP-D-D-D",
+    "TGT": 16159,
+    "ACH": 2571,
+    "BTD": 13587,
+    "ME Name": "Sajal  Chakraborty",
+    "Beat": "OFM-F-Bidhan Sarani-collage st",
+    "Day": "THU"
+  },
+  {
     "HUL Code": "HUL-219176D-P35902",
     "HUL Outlet Name": "NARAYAN STORES-D-U2NC",
     "TGT": 16066,
-    "ACH": 8472,
-    "BTD": 7594,
+    "ACH": 7364,
+    "BTD": 8702,
     "ME Name": "Sajal  Chakraborty",
     "Beat": "OFM-F-Belgachia - Baguihati",
     "Day": "TU"
   },
   {
+    "HUL Code": "HUL-217085D-P1315",
+    "HUL Outlet Name": "NAVABIHAR BHANDAR-D-D-D-D-D",
+    "TGT": 9706,
+    "ACH": 4414,
+    "BTD": 5292,
+    "ME Name": "Sajal  Chakraborty",
+    "Beat": "OFM-F-Bidhan Sarani-collage st",
+    "Day": "THU"
+  },
+  {
     "HUL Code": "HUL-217093D-P1245",
     "HUL Outlet Name": "NEW RABINDRA NATH BHANDAR-D-D-D-D",
     "TGT": 11366,
-    "ACH": 5903,
-    "BTD": 5462,
+    "ACH": 7467,
+    "BTD": 3898,
     "ME Name": "Sajal  Chakraborty",
     "Beat": "OFM-F-Belgachia - Baguihati",
     "Day": "TU"
+  },
+  {
+    "HUL Code": "HUL-20B317D-P43301",
+    "HUL Outlet Name": "Rasafa Mart",
+    "TGT": 31076,
+    "ACH": 21395,
+    "BTD": 9681,
+    "ME Name": "Sajal  Chakraborty",
+    "Beat": "OFM-F-Bidhan Sarani-collage st",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-20B317D-P44044",
@@ -158,6 +148,16 @@
     "ME Name": "Sajal  Chakraborty",
     "Beat": "OFM-F-Belgachia - Baguihati",
     "Day": "TU"
+  },
+  {
+    "HUL Code": "WB70001260739",
+    "HUL Outlet Name": "S DUTTA(Svs)-D-D-D-D-D",
+    "TGT": 15073,
+    "ACH": 6417,
+    "BTD": 8656,
+    "ME Name": "Sajal  Chakraborty",
+    "Beat": "OFM-F-Bidhan Sarani-collage st",
+    "Day": "THU"
   },
   {
     "HUL Code": "HUL-217093D-P0653",
